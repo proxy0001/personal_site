@@ -5,6 +5,12 @@ import {FaTwitter} from 'react-icons/fa'
 export default function Home() {
   let pieces = [
     {
+      title: "Play on the Swing",
+      src: "/img/in_the_room/In_the_Room-Play_on_the_Swing_1080P.jpg",
+      alt: "In the Room - Play on the Swing",
+      createDate: "2022-06-28",
+    },
+    {
       title: "Project Me",
       src: "/img/in_the_room/In_the_Room-Project_Me_1080P.jpg",
       alt: "In the Room - Project Me",
@@ -100,7 +106,7 @@ export default function Home() {
         </a> */}
 
         <div className={styles.links}>
-          <a href="#"><FaTwitter className={styles.linkIcon} /></a>
+          <a href="https://twitter.com/proxy0001" target="_blank"><FaTwitter className={styles.linkIcon} /></a>
         </div>
       </footer>
     </div>
