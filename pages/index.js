@@ -106,7 +106,7 @@ export default function Home() {
         </a> */}
 
         <div className={styles.links}>
-          <a href="https://twitter.com/proxy0001" target="_blank"><FaTwitter className={styles.linkIcon} /></a>
+          <a href="https://twitter.com/proxy0001" target="_blank" rel="noreferrer"><FaTwitter className={styles.linkIcon} /></a>
         </div>
       </footer>
     </div>
