@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from 'styles/Home.module.css'
 import {FaTwitter} from 'react-icons/fa'
 import {VscMenu} from 'react-icons/vsc'
-import SeriesHead from '../components/series-head'
+import SeriesHead from 'components/series-head'
 
-export default function Home() {
+export default function InTheRoom() {
   let pieces = [
     {
       title: "Play on the Swing",
@@ -76,16 +76,18 @@ export default function Home() {
         </div>
 
         <h1 className={styles.title}>
-          proxy0001
+          In the Room
         </h1>
 
         <p className={styles.description}>
-          How to be an artist? My latest occupation was a software planner and front-end engineer for a total of 7 years, 4 years at a startup working on data analytics products, and 3 years at an advertising agency. I haven't painted for many years, althought I have studied animation and post-production before, but at that time, I never thought of myself as an artist.
+        In the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room Description
         </p>
 
         <div className={styles.series}>
-          <SeriesHead isAlwaysActive={true} title="In the Room" description="In the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room Description"/>
-
+          <SeriesHead title="In the Room" description="In the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room Description"/>
+          {/* <p className={styles.description}>
+          In the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room Description
+          </p> */}
           {pieces.map((x, i) =>
             <div className={styles.piece} key={i}>
               <h3>{x.title}</h3>
