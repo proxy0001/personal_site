@@ -58,6 +58,7 @@ export const seriesInTheRoom = {
       },
     ],
     representColor: "greenyellow",
+    link: "/series/in-the-room",
 }
 export const seriesCanITakeAPhotoForYou = {
     title: "Can I Take a Photo for You ?",
@@ -107,6 +108,7 @@ export const seriesCanITakeAPhotoForYou = {
       },
     ],
     representColor: "cornsilk",
+    link: "/series/can-i-take-a-photo-for-you",
 }
 
 export const allSeries = [
@@ -118,11 +120,20 @@ export const allSeries = [
         description: x.description,
         cover: x.pieces[0],
         representColor: x.representColor,
+        link: x.link,
     }
 })
 
 export const menuOptions = [
     {text: "Home", link: "/"},
-    {text: seriesInTheRoom.title, link: "/series/in-the-room", representColor: seriesInTheRoom.representColor},
-    {text: seriesCanITakeAPhotoForYou.title, link: "/series/can-i-take-a-photo-for-you", representColor: seriesCanITakeAPhotoForYou.representColor},
+    {
+        text: seriesInTheRoom.title,
+        link: seriesInTheRoom.link,
+        representColor: seriesInTheRoom.representColor
+    },
+    {  
+        text: seriesCanITakeAPhotoForYou.title,
+        link: seriesCanITakeAPhotoForYou.link,
+        representColor: seriesCanITakeAPhotoForYou.representColor
+    },
 ]

@@ -1,10 +1,19 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import {FaTwitter} from 'react-icons/fa';
+import Footer from 'components/footer';
 import Menu from 'components/menu';
 import { allSeries } from 'store/series';
+import { useRouter } from 'next/router';
 
 export default function Home() {
+  const router = useRouter();
+  const handleClick = (href) => {
+    return (e) => {
+      e.preventDefault()
+      router.push(href)
+    }
+  };
   return (
     <div className={styles.container}>
       <Head>
@@ -27,7 +36,9 @@ export default function Home() {
         <div className={styles.gallery}>
           {
             allSeries.map((x, i) =>
-              <div className={styles.galleryItem} key={i}>
+              <div className={styles.galleryItem} key={i}
+                onClick={handleClick(x.link)}
+              >
                 <h3 className={styles.title} style={{color: x.representColor}}>{x.title}</h3>
                 <p className={styles.galleryItemDescription}>{x.description}</p>
                 <img
@@ -39,30 +50,8 @@ export default function Home() {
             )
           }
         </div>
-        {/* <div className={styles.series}>
-          <SeriesHead isAlwaysActive={true} title="In the Room" description="In the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room Description"/>
-
-          {pieces.map((x, i) =>
-            <div className={styles.piece} key={i}>
-              <h3>{x.title}</h3>
-              <img
-                className={styles.pieceImg}
-                src={x.src}
-                alt={x.alt}
-              />
-              <div className={styles.pieceFoot}>{x.createDate}</div>
-            </div>
-          )}
-        </div> */}
       </main>
-
-      <footer className={styles.footer}>
-        <div className={styles.links}>
-          <a href="https://twitter.com/proxy0001" target="_blank" rel="noreferrer">
-            <FaTwitter className={styles.linkIcon} />
-          </a>
-        </div>
-      </footer>
+      <Footer/>
     </div>
   )
 }
