@@ -1,60 +1,67 @@
 
-import React from 'react'
-import styles from '../styles/Home.module.css'
-import {AiOutlineExpandAlt, AiOutlineShrink} from 'react-icons/ai'
-
-
+import React from 'react';
+import styles from '../styles/Home.module.css';
+import {AiOutlineExpandAlt, AiOutlineShrink} from 'react-icons/ai';
 
 export default class SeriesHead extends React.Component {
   constructor (props) {
     super(props);
-    // console.log(props.isActive)
     this.state = {
       isAlwaysActive: props.isAlwaysActive || false,
       isActive: props.isAlwaysActive || props.isActive || false,
       isShowDescription: false,
       isShowCollapseBtn: false,
     };
+
+    this.wrapperRef = React.createRef();
+    this.handleClickOutside = this.handleClickOutside.bind(this);
   }
 
   setShowCollapseBtn = (e) => {
     let isShowCollapseBtn = e === undefined ? !this.state.isShowCollapseBtn : e;
     this.setState({isShowCollapseBtn});
-    // console.log(this.state.isShowCollapseBtn);
   }
 
   setShowDescription = (e) => {
     let isShowDescription = e === undefined ? !this.state.isShowDescription : e;
     this.setState({isShowDescription});
-    // console.log(this.state.isShowDescription);
   }
 
-  setIsActive = (e) => {
+  setActive = (e) => {
     let isActive = e === undefined ? !this.state.isActive : e;
     this.setState({isActive});
-    console.log(this.state.isActive);
   }
 
   listenToScroll = () => {
     let isShowCollapseBtn = window.pageYOffset >= 300;
     this.setShowCollapseBtn(isShowCollapseBtn);
-    if (!this.state.isAlwaysActive) this.setIsActive(isShowCollapseBtn);
+    if (!this.state.isAlwaysActive) this.setActive(isShowCollapseBtn);
     if (!isShowCollapseBtn) this.setShowDescription(false);
   }
 
   componentDidMount () {
     window.addEventListener('scroll', this.listenToScroll);
+    document.addEventListener("mousedown", this.handleClickOutside);
   }
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.listenToScroll)
+    document.removeEventListener("mousedown", this.handleClickOutside);
+  }
+
+  handleClickOutside (event) {
+    if (this.wrapperRef && !this.wrapperRef.current.contains(event.target)) {
+      this.setShowDescription(false);
+    }
   }
 
   render () {
     return (
-      <div className={`${styles.seriesHead} ${this.state.isActive ? '' : styles.hidden}`}>
+      <div className={`${styles.seriesHead} ${this.state.isActive ? '' : styles.hidden}`}
+        ref={this.wrapperRef}
+        style={{backgroundColor: this.props.representColor}}
+      >
         <h2>{this.props.title}</h2>
-        <h2>{this.state.isShowDescription}</h2>
         {
           this.state.isShowCollapseBtn ? 
             <div className={styles.collapseBtn}
