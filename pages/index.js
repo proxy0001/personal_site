@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {FaTwitter} from 'react-icons/fa'
+import {VscMenu} from 'react-icons/vsc'
+
 export default function Home() {
   let pieces = [
     {
@@ -68,6 +70,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.menu}>
+        <VscMenu className={styles.linkIcon} />
+        </div>
+
         <h1 className={styles.title}>
           proxy0001
         </h1>
@@ -95,18 +101,10 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        {/* <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a> */}
-
         <div className={styles.links}>
-          <a href="https://twitter.com/proxy0001" target="_blank" rel="noreferrer"><FaTwitter className={styles.linkIcon} /></a>
+          <a href="https://twitter.com/proxy0001" target="_blank" rel="noreferrer">
+            <FaTwitter className={styles.linkIcon} />
+          </a>
         </div>
       </footer>
     </div>
