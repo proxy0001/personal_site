@@ -1,11 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import {FaTwitter} from 'react-icons/fa'
-import {VscMenu} from 'react-icons/vsc'
-import SeriesHead from '../components/series-head'
-import Menu from 'components/menu'
-import { allSeries } from 'store/series'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import {FaTwitter} from 'react-icons/fa';
+import Menu from 'components/menu';
+import { allSeries } from 'store/series';
 
 export default function Home() {
   return (
@@ -24,7 +21,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          How to be an artist? My latest occupation was a software planner and front-end engineer for a total of 7 years, 4 years at a startup working on data analytics products, and 3 years at an advertising agency. I haven't painted for many years, althought I have studied animation and post-production before, but at that time, I never thought of myself as an artist.
+          How to be an artist? My latest occupation was a software planner and front-end engineer for a total of 7 years, 4 years at a startup working on data analytics products, and 3 years at an advertising agency. I haven&apos;t painted for many years, althought I have studied animation and post-production before, but at that time, I never thought of myself as an artist.
         </p>
 
         <div className={styles.gallery}>
