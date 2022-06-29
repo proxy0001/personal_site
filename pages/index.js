@@ -73,7 +73,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          How to be an artist ? My latest occupation was a software planner and front-end engineer overall 7 years, 4 years at a startup working on a data analytics product, and 3 years at an advertising agency. I had never drawn for many years, I used to learn animation and post-production before,  but even at that time, I never thought I was an artist.
+        How to be an artist? My latest occupation was a software planner and front-end engineer for a total of 7 years, 4 years at a startup working on data analytics products, and 3 years at an advertising agency. I haven't painted for many years, althought I have studied animation and post-production before, but at that time, I never thought of myself as an artist.
         </p>
 
         <div className={styles.series}>
