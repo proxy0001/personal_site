@@ -34,15 +34,17 @@
   position: fixed;
   top: 2rem;
   right: 3rem;
+  margin-right: -0.4rem;
   width: 3.2rem;
   height: 3.2rem;
-  background-color: black;
+  background-color: cornflowerblue;
   color: aliceblue;
   font-size: 2.4rem;
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
   cursor: pointer;
+  z-index: 10;
 }
 
 .title a {
@@ -86,6 +88,9 @@
   flex-wrap: wrap;
   /* max-width: 800px; */
   width: 100%;
+  position:relative;
+  top: 0;
+  left: 0;
 }
 
 .piece {
@@ -106,6 +111,37 @@
   background-color: greenyellow;
   position: sticky;
   top: 0;
+  margin-left: -3rem;
+}
+
+.series .seriesDescription {
+  padding: 1rem 1.6rem;
+  background: black;
+  position: absolute;
+  top: 4.25rem;
+  width: 30rem;
+  max-width: calc(100vw - 1rem);
+  left: 0;
+  line-height: 1.5;
+}
+
+.series .seriesDescription.deactivate {
+  display: none;
+}
+
+.series .collapseBtn {
+  position: absolute;
+  bottom: -0.6rem;
+  right: -0.6rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  font-size: 1.3rem;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 
 .series h2 {
@@ -144,6 +180,9 @@
   .menu {
     right: 6rem;
   }
+  .series .seriesHead {
+    margin-left: -6rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -152,5 +191,8 @@
   }
   .menu {
     right: 0.5rem;
+  }
+  .series .seriesHead {
+    margin-left: -0.5rem;
   }
 }

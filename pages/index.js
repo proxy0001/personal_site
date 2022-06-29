@@ -3,6 +3,34 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {FaTwitter} from 'react-icons/fa'
 import {VscMenu} from 'react-icons/vsc'
+import {AiOutlineExpandAlt} from 'react-icons/ai'
+import {AiOutlineShrink} from 'react-icons/ai'
+import {useState} from 'react'
+
+function SeriesHead (props) {
+  const [isActive, setActive] = useState(true);
+
+  const toggleClass = () => {
+    setActive(!isActive);
+  };
+
+  return (
+    <div className={styles.seriesHead}>
+      <h2>{props.title}</h2>
+      <div className={styles.collapseBtn}
+        onClick={toggleClass}
+      >
+        {isActive ? <AiOutlineShrink/> : <AiOutlineExpandAlt/>}
+      </div>
+      {
+        isActive ? <div className={styles.seriesDescription}>
+        <p>{props.description}</p>
+      </div> : null
+      }
+      
+    </div>
+   );
+}  
 
 export default function Home() {
   let pieces = [
@@ -83,9 +111,8 @@ export default function Home() {
         </p>
 
         <div className={styles.series}>
-          <div className={styles.seriesHead}>
-            <h2>In the Room</h2>
-          </div>
+          <SeriesHead title="In the Room" description="In the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room Description"/>
+
           {pieces.map((x, i) =>
             <div className={styles.piece} key={i}>
               <h3>{x.title}</h3>
