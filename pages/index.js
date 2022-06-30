@@ -3,7 +3,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Footer from 'components/footer';
 import Menu from 'components/menu';
-import { allSeries } from 'store/series';
+import { me as pageData } from 'store/series';
 import { useRouter } from 'next/router';
 
 export default function Home() {
@@ -15,10 +15,6 @@ export default function Home() {
     }
   };
 
-  const pageData = {
-    title: "proxy0001",
-    description: "How to be an artist? My latest occupation was software planner and front-end engineer for a total of 7 years. Earlier I studied animation and post-production, but at that time, I never thought of myself as an artist. After years of doing nothing in this field, I'm back to draw with a feeling that I'm an artist.",
-  }
   return (
     <div className={styles.container}>
       <Head>
@@ -30,17 +26,20 @@ export default function Home() {
       <main className={styles.main}>
         <Menu/>
 
-        <h1 className={styles.title}>
+        <div className={styles.title} style={{color: pageData.representColor}}>
+          {pageData.icon}
+        </div>
+        <h1 className={styles.title} style={{color: pageData.representColor}}>
           {pageData.title}
         </h1>
 
-        <p className={styles.description}>
+        <p className={styles.description} style={{color: pageData.representColor}}>
           {pageData.description}
         </p>
 
         <div className={styles.gallery}>
           {
-            allSeries.map((x, i) =>
+            pageData.gallery.map((x, i) =>
               <div className={styles.galleryItem} key={i}
                 onClick={handleClick(x.link)}
               >

@@ -45,12 +45,12 @@ export default withRouter(class Menu extends React.Component {
           this.state.isActive ?
             <div className={styles.menuOptions}>
               {menuOptions.map((x, i) =>
-                <option className={`${styles.menuOption} ${i === 0 ? styles.systemColor : ''}`} key={i}
+                <div className={`${styles.menuOption} ${i === 0 ? styles.systemColor : ''}`} key={i}
                   style={{backgroundColor: x.representColor}}
                   onClick={() => this.props.router.push(x.link)}
                 >
-                  {x.text}
-                </option>
+                  {x.icon} {x.text}
+                </div>
               )}
             </div>
           : null

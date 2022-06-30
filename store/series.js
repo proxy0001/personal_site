@@ -1,3 +1,5 @@
+import {MdHome, MdBedroomChild, MdPhotoCamera} from 'react-icons/md';
+
 export const seriesInTheRoom = {
     title: "In the Room",
     description: "The room breeds life, and life shapes the room. I look for a different self through you, you seek yourself in the room.",
@@ -86,6 +88,7 @@ export const seriesInTheRoom = {
     ],
     representColor: "greenyellow",
     link: "/series/in-the-room",
+    icon: <MdBedroomChild/>,
 }
 export const seriesCanITakeAPhotoForYou = {
     title: "Can I Take a Photo for You ?",
@@ -157,31 +160,45 @@ export const seriesCanITakeAPhotoForYou = {
     ],
     representColor: "cornsilk",
     link: "/series/can-i-take-a-photo-for-you",
+    icon: <MdPhotoCamera/>,
 }
 
-export const allSeries = [
-    seriesInTheRoom,
-    seriesCanITakeAPhotoForYou,
-].map((x, i) => {
-    return {
-        title: x.title,
-        description: x.description,
-        cover: x.pieces[0],
-        representColor: x.representColor,
-        link: x.link,
-    }
-})
+export const me = {
+    title: "proxy0001",
+    description: "How to be an artist? My latest occupation was software planner and front-end engineer for a total of 7 years. Earlier I studied animation and post-production, but at that time, I never thought of myself as an artist. After years of doing nothing in this field, I'm back to draw with a feeling that I'm an artist.",
+    gallery: [
+        seriesInTheRoom,
+        seriesCanITakeAPhotoForYou,
+    ].map((x, i) => {
+        return {
+            title: x.title,
+            description: x.description,
+            cover: x.pieces[0],
+            representColor: x.representColor,
+            link: x.link,
+        }
+    }),
+    representColor: "cornflowerblue",
+    link: "/",
+    icon: <MdHome/>,
+}
 
 export const menuOptions = [
-    {text: "Home", link: "/"},
+    {   
+        text: "Home",
+        link: "/",
+        icon: me.icon
+    },
     {
         text: seriesInTheRoom.title,
         link: seriesInTheRoom.link,
-        representColor: seriesInTheRoom.representColor
+        representColor: seriesInTheRoom.representColor,
+        icon: seriesInTheRoom.icon,
     },
     {  
         text: seriesCanITakeAPhotoForYou.title,
         link: seriesCanITakeAPhotoForYou.link,
-        representColor: seriesCanITakeAPhotoForYou.representColor
+        representColor: seriesCanITakeAPhotoForYou.representColor,
+        icon: seriesCanITakeAPhotoForYou.icon,
     },
 ]

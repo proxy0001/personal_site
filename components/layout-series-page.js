@@ -18,6 +18,9 @@ export default function LayoutSeriesPage (props) {
       <main className={`${styles.main} ${styles.seriesPage}`}>
         <Menu/>
 
+        <div className={styles.title} style={{color: props.representColor}}>
+          {props.icon}
+        </div>
         <h1 className={styles.title} style={{color: props.representColor}}>
           {props.title}
         </h1>
