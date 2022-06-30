@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import {FaTwitter} from 'react-icons/fa';
 import Footer from 'components/footer';
 import Menu from 'components/menu';
 import { allSeries } from 'store/series';

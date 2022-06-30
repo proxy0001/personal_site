@@ -22,9 +22,7 @@ export default function LayoutSeriesPage (props) {
           {props.title}
         </h1>
 
-        <p className={styles.description}
-          // style={{color: props.representColor}}
-        >
+        <p className={styles.description}>
           {props.description}
         </p>
 
