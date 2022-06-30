@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import Head from 'next/head';
 import styles from 'styles/Home.module.css';
 import SeriesHead from 'components/series-head';
@@ -17,13 +18,14 @@ export default function LayoutSeriesPage (props) {
       <main className={`${styles.main} ${styles.seriesPage}`}>
         <Menu/>
 
+        <div className={styles.title} style={{color: props.representColor}}>
+          {props.icon}
+        </div>
         <h1 className={styles.title} style={{color: props.representColor}}>
           {props.title}
         </h1>
 
-        <p className={styles.description}
-          // style={{color: props.representColor}}
-        >
+        <p className={styles.description}>
           {props.description}
         </p>
 
@@ -32,12 +34,15 @@ export default function LayoutSeriesPage (props) {
           {props.pieces.map((x, i) =>
             <div className={styles.piece} key={i}>
               <h3>{x.title}</h3>
-              <img
+              <Image
                 className={styles.pieceImg}
                 src={x.src}
                 alt={x.alt}
+                width={x.width}
+                height={x.height}
+                priority={i < 2 ? true : false}
               />
-              <div className={styles.pieceFoot}>{x.createDate}</div>
+              <div className={styles.pieceFoot}>{`${x.specification}, ${x.createDate}`}</div>
             </div>
           )}
         </div>

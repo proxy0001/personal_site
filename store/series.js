@@ -1,139 +1,205 @@
+import {MdHome, MdBedroomChild, MdPhotoCamera} from 'react-icons/md';
+
 export const seriesInTheRoom = {
     title: "In the Room",
-    description: "In the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room DescriptionIn the Room Description In the Room Description In the Room Description In the Room Description",
+    description: "The room breeds life, and life shapes the room. I look for a different self through you, you seek yourself in the room.",
     pieces: [
       {
         title: "Play on the Swing",
         src: "/img/in_the_room/In_the_Room-Play_on_the_Swing_1080P.jpg",
         alt: "In the Room - Play on the Swing",
         createDate: "2022-06-28",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Project Me",
         src: "/img/in_the_room/In_the_Room-Project_Me_1080P.jpg",
         alt: "In the Room - Project Me",
         createDate: "2022-06-24",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Want out",
         src: "/img/in_the_room/In_the_Room-Want_out_1080P.jpg",
         alt: "In the Room - Want out",
         createDate: "2022-06-23",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Looks Like I Have a Son",
         src: "/img/in_the_room/In_the_Room-Looks_Like_I_Have_a_Son_1080P.jpg",
         alt: "In the Room - Looks Like I Have a Son",
         createDate: "2022-06-18",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Swimming ?",
         src: "/img/in_the_room/In_the_Room-Swimming_1080P.jpg",
         alt: "In the Room - Swimming ?",
         createDate: "2022-06-15",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Dancing with Room",
         src: "/img/in_the_room/In_the_Room-Dancing_with_Room_1080P.jpg",
         alt: "In the Room - Dancing with Rooms",
         createDate: "2022-06-14",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Watching TV",
         src: "/img/in_the_room/In_the_Room-Watching_TV_1080P.jpg",
         alt: "In the Room - Watching TV",
         createDate: "2022-06-11",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Blowing Bubbles",
         src: "/img/in_the_room/In_the_Room-Blowing_Bubbles_1080P.jpg",
         alt: "In the Room - Blowing Bubbles",
         createDate: "2022-06-07",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Me",
         src: "/img/in_the_room/In_the_Room-Me_1080P.jpg",
         alt: "In the Room - Me",
         createDate: "2022-05-19",
+        specification: "3840 x 2160",
+        width: 3840,
+        height: 2160,
       },
     ],
     representColor: "greenyellow",
     link: "/series/in-the-room",
+    icon: <MdBedroomChild/>,
 }
 export const seriesCanITakeAPhotoForYou = {
     title: "Can I Take a Photo for You ?",
-    description: "Can I Take a Photo for You ? description",
+    description: "There is a river in front of my house, only cars and factories here, no attractions, no tourists, no one will stop and take pictures of her. So I do, I'm a traveler passing by at different times to take a photo for you.",
     pieces: [
       {
         title: "20220627",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220627_153601251.jpg",
         alt: "Can I Take a Photo for You ? - 20220627",
         createDate: "2022-06-27",
+        specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220626",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220626_163721632.jpg",
         alt: "Can I Take a Photo for You ? - 20220626",
         createDate: "2022-06-26",
+        specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220624",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220624_093253742.jpg",
         alt: "Can I Take a Photo for You ? - 20220624",
         createDate: "2022-06-24",
+        specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220623",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220623_075105607.jpg",
         alt: "Can I Take a Photo for You ? - 20220623",
         createDate: "2022-06-23",
+        specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220622",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220622_074847108.jpg",
         alt: "Can I Take a Photo for You ? - 20220622",
         createDate: "2022-06-22",
+        specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220610",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220610_153057415.jpg",
         alt: "Can I Take a Photo for You ? - 20220610",
         createDate: "2022-06-10",
+        specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220609",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220609_124848041.jpg",
         alt: "Can I Take a Photo for You ? - 20220609",
         createDate: "2022-06-09",
+        specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
     ],
     representColor: "cornsilk",
     link: "/series/can-i-take-a-photo-for-you",
+    icon: <MdPhotoCamera/>,
 }
 
-export const allSeries = [
-    seriesInTheRoom,
-    seriesCanITakeAPhotoForYou,
-].map((x, i) => {
-    return {
-        title: x.title,
-        description: x.description,
-        cover: x.pieces[0],
-        representColor: x.representColor,
-        link: x.link,
-    }
-})
+export const me = {
+    title: "proxy0001",
+    description: "How to be an artist? My latest occupation was software planner and front-end engineer for a total of 7 years. Earlier I studied animation and post-production, but at that time, I never thought of myself as an artist. After years of doing nothing in this field, I'm back to draw with a feeling that I'm an artist.",
+    gallery: [
+        seriesInTheRoom,
+        seriesCanITakeAPhotoForYou,
+    ].map((x, i) => {
+        return {
+            title: x.title,
+            description: x.description,
+            cover: x.pieces[0],
+            representColor: x.representColor,
+            link: x.link,
+        }
+    }),
+    representColor: "cornflowerblue",
+    link: "/",
+    icon: <MdHome/>,
+}
 
 export const menuOptions = [
-    {text: "Home", link: "/"},
+    {   
+        text: "Home",
+        link: "/",
+        icon: me.icon,
+        isSystemColor: true,
+    },
     {
         text: seriesInTheRoom.title,
         link: seriesInTheRoom.link,
-        representColor: seriesInTheRoom.representColor
+        representColor: seriesInTheRoom.representColor,
+        icon: seriesInTheRoom.icon,
     },
     {  
         text: seriesCanITakeAPhotoForYou.title,
         link: seriesCanITakeAPhotoForYou.link,
-        representColor: seriesCanITakeAPhotoForYou.representColor
+        representColor: seriesCanITakeAPhotoForYou.representColor,
+        icon: seriesCanITakeAPhotoForYou.icon,
     },
 ]

@@ -10,6 +10,7 @@ export default withRouter(class Menu extends React.Component {
     super(props);
     this.state = {
       isActive: false,
+      current_path: this.props.router.pathname,
     };
 
     this.wrapperRef = React.createRef();
@@ -40,17 +41,26 @@ export default withRouter(class Menu extends React.Component {
         ref={this.wrapperRef}
         onClick={() => this.setActive()}
       >
+        {
+          this.state.isActive ? <div className={styles.menuMask}></div> : null
+        }
         <VscMenu className={styles.linkIcon} />
         {
           this.state.isActive ?
             <div className={styles.menuOptions}>
               {menuOptions.map((x, i) =>
-                <option className={`${styles.menuOption} ${i === 0 ? styles.systemColor : ''}`} key={i}
-                  style={{backgroundColor: x.representColor}}
+                <div
+                  className={`
+                    ${styles.menuOption}
+                    ${x.isSystemColor === true ? styles.systemColor : ''}
+                    ${x.link === this.state.current_path ? styles.isCurrent : ''}
+                  `}
+                  key={i}
+                  style={{backgroundColor: x.link === this.state.current_path ? x.representColor : null}}
                   onClick={() => this.props.router.push(x.link)}
                 >
-                  {x.text}
-                </option>
+                  {x.icon} {x.text}
+                </div>
               )}
             </div>
           : null

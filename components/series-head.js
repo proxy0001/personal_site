@@ -61,7 +61,7 @@ export default class SeriesHead extends React.Component {
         ref={this.wrapperRef}
         style={{backgroundColor: this.props.representColor}}
       >
-        <h2>{this.props.title}</h2>
+        <h2>{this.props.icon}{this.props.title}</h2>
         {
           this.state.isShowCollapseBtn ? 
             <div className={styles.collapseBtn}
