@@ -44,6 +44,7 @@
   justify-content: center;
   cursor: pointer;
   z-index: 10;
+  box-shadow: 3px 3px teal;
 }
 
 .menuOptions {
@@ -51,6 +52,7 @@
   top: 3.2rem;
   right: 0;
   background-color: cornflowerblue;
+  box-shadow: 3px 3px teal;
 }
 
 .menuOption {
@@ -69,6 +71,16 @@
   margin-right: 0.5rem;
 }
 
+.menuOption.systemColor {
+  color: aliceblue;
+  /* background-color: cornflowerblue; */
+}
+
+.menuOption:not(.isCurrent) {
+  color: black;
+  background-color: #5f77a4;
+}
+
 .menuMask {
   position: fixed;
   top: 0;
@@ -78,11 +90,6 @@
   background-color: cornflowerblue;
   opacity: 0.5;
   z-index: -1;
-}
-
-.systemColor {
-  color: aliceblue;
-  background-color: cornflowerblue;
 }
 
 .title {
@@ -177,7 +184,6 @@
   background-color: black;
   color: lightslategray;
   position: absolute;
-  top: 4.24rem;
   width: 30rem;
   max-width: calc(100vw - 1rem);
   left: 0;
@@ -229,6 +235,7 @@
 }
 
 .piece .pieceFoot {
+  color: lightslategray;
   font-size: 0.8rem;
   text-align: right;
 }

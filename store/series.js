@@ -187,7 +187,8 @@ export const menuOptions = [
     {   
         text: "Home",
         link: "/",
-        icon: me.icon
+        icon: me.icon,
+        isSystemColor: true,
     },
     {
         text: seriesInTheRoom.title,
