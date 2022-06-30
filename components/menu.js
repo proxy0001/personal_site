@@ -40,6 +40,9 @@ export default withRouter(class Menu extends React.Component {
         ref={this.wrapperRef}
         onClick={() => this.setActive()}
       >
+        {
+          this.state.isActive ? <div className={styles.menuMask}></div> : null
+        }
         <VscMenu className={styles.linkIcon} />
         {
           this.state.isActive ?
