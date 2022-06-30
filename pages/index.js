@@ -14,11 +14,16 @@ export default function Home() {
       router.push(href)
     }
   };
+
+  const pageData = {
+    title: "proxy0001",
+    description: "How to be an artist? My latest occupation was software planner and front-end engineer for a total of 7 years. Earlier I studied animation and post-production, but at that time, I never thought of myself as an artist. After years of doing nothing in this field, I'm back to draw with a feeling that I'm an artist.",
+  }
   return (
     <div className={styles.container}>
       <Head>
-        <title>proxy0001</title>
-        <meta name="description" content="personal site of proxy0001" />
+        <title>{pageData.title}</title>
+        <meta name="description" content={pageData.description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -26,11 +31,11 @@ export default function Home() {
         <Menu/>
 
         <h1 className={styles.title}>
-          proxy0001
+          {pageData.title}
         </h1>
 
         <p className={styles.description}>
-          How to be an artist? My latest occupation was a software planner and front-end engineer for a total of 7 years, 4 years at a startup working on data analytics products, and 3 years at an advertising agency. I haven&apos;t painted for many years, althought I have studied animation and post-production before, but at that time, I never thought of myself as an artist.
+          {pageData.description}
         </p>
 
         <div className={styles.gallery}>

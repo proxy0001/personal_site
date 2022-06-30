@@ -37,7 +37,7 @@ export default function LayoutSeriesPage (props) {
                 src={x.src}
                 alt={x.alt}
               />
-              <div className={styles.pieceFoot}>{x.createDate}</div>
+              <div className={styles.pieceFoot}>{`${x.specification}, ${x.createDate}`}</div>
             </div>
           )}
         </div>
