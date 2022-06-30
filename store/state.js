@@ -203,3 +203,7 @@ export const menuOptions = [
         icon: seriesCanITakeAPhotoForYou.icon,
     },
 ]
+
+export const env = {
+  url: "https://proxy0001.vercel.app"
+}

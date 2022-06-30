@@ -3,7 +3,7 @@ import React from 'react';
 import styles from 'styles/Home.module.css';
 import {VscMenu} from 'react-icons/vsc';
 import { withRouter } from 'next/router';
-import { menuOptions } from 'store/series';
+import { menuOptions } from 'store/state';
 
 export default withRouter(class Menu extends React.Component {
   constructor (props) {

@@ -12,6 +12,10 @@ export default function LayoutSeriesPage (props) {
       <Head>
         <title>{props.title}</title>
         <meta name="description" content={props.description} />
+        <meta property="og:title" content={props.title} />
+        <meta property="og:image" content={props.url + props.pieces[0].src} />
+        <meta property="og:description" content={props.description} />
+        <meta property="og:url"  content={props.url} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
