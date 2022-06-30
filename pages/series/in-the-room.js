@@ -1,8 +1,8 @@
 import LayoutSeriesPage from 'components/layout-series-page';
-import { seriesInTheRoom as seriesData } from 'store/series';
+import { env, seriesInTheRoom as seriesData } from 'store/state';
 
 export default function InTheRoom() {
   return (
-    <LayoutSeriesPage {...seriesData}/>
+    <LayoutSeriesPage {...seriesData} url={env.url} />
   )
 }

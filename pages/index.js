@@ -3,7 +3,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Footer from 'components/footer';
 import Menu from 'components/menu';
-import { me as pageData } from 'store/series';
+import { env, me as pageData } from 'store/state';
 import { useRouter } from 'next/router';
 
 export default function Home() {
@@ -20,6 +20,10 @@ export default function Home() {
       <Head>
         <title>{pageData.title}</title>
         <meta name="description" content={pageData.description} />
+        <meta property="og:title" content={pageData.title} />
+        <meta property="og:image" content={env.url + pageData.gallery[0].cover.src} />
+        <meta property="og:description" content={pageData.description} />
+        <meta property="og:url"  content={env.url} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
