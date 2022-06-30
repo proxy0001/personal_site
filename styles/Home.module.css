@@ -154,6 +154,7 @@
   position: sticky;
   top: 0;
   margin-left: -3rem;
+  z-index: 1;
 }
 
 .series .seriesDescription {

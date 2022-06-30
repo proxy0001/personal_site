@@ -8,6 +8,8 @@ export const seriesInTheRoom = {
         alt: "In the Room - Play on the Swing",
         createDate: "2022-06-28",
         specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Project Me",
@@ -15,6 +17,8 @@ export const seriesInTheRoom = {
         alt: "In the Room - Project Me",
         createDate: "2022-06-24",
         specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Want out",
@@ -22,6 +26,8 @@ export const seriesInTheRoom = {
         alt: "In the Room - Want out",
         createDate: "2022-06-23",
         specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Looks Like I Have a Son",
@@ -29,6 +35,8 @@ export const seriesInTheRoom = {
         alt: "In the Room - Looks Like I Have a Son",
         createDate: "2022-06-18",
         specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Swimming ?",
@@ -36,6 +44,8 @@ export const seriesInTheRoom = {
         alt: "In the Room - Swimming ?",
         createDate: "2022-06-15",
         specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Dancing with Room",
@@ -43,6 +53,8 @@ export const seriesInTheRoom = {
         alt: "In the Room - Dancing with Rooms",
         createDate: "2022-06-14",
         specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Watching TV",
@@ -50,6 +62,8 @@ export const seriesInTheRoom = {
         alt: "In the Room - Watching TV",
         createDate: "2022-06-11",
         specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Blowing Bubbles",
@@ -57,6 +71,8 @@ export const seriesInTheRoom = {
         alt: "In the Room - Blowing Bubbles",
         createDate: "2022-06-07",
         specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
       },
       {
         title: "Me",
@@ -64,6 +80,8 @@ export const seriesInTheRoom = {
         alt: "In the Room - Me",
         createDate: "2022-05-19",
         specification: "3840 x 2160",
+        width: 3840,
+        height: 2160,
       },
     ],
     representColor: "greenyellow",
@@ -79,6 +97,8 @@ export const seriesCanITakeAPhotoForYou = {
         alt: "Can I Take a Photo for You ? - 20220627",
         createDate: "2022-06-27",
         specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220626",
@@ -86,6 +106,8 @@ export const seriesCanITakeAPhotoForYou = {
         alt: "Can I Take a Photo for You ? - 20220626",
         createDate: "2022-06-26",
         specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220624",
@@ -93,6 +115,8 @@ export const seriesCanITakeAPhotoForYou = {
         alt: "Can I Take a Photo for You ? - 20220624",
         createDate: "2022-06-24",
         specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220623",
@@ -100,6 +124,8 @@ export const seriesCanITakeAPhotoForYou = {
         alt: "Can I Take a Photo for You ? - 20220623",
         createDate: "2022-06-23",
         specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220622",
@@ -107,6 +133,8 @@ export const seriesCanITakeAPhotoForYou = {
         alt: "Can I Take a Photo for You ? - 20220622",
         createDate: "2022-06-22",
         specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220610",
@@ -114,6 +142,8 @@ export const seriesCanITakeAPhotoForYou = {
         alt: "Can I Take a Photo for You ? - 20220610",
         createDate: "2022-06-10",
         specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
       {
         title: "20220609",
@@ -121,6 +151,8 @@ export const seriesCanITakeAPhotoForYou = {
         alt: "Can I Take a Photo for You ? - 20220609",
         createDate: "2022-06-09",
         specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
       },
     ],
     representColor: "cornsilk",

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import {FaTwitter} from 'react-icons/fa';
@@ -46,10 +47,13 @@ export default function Home() {
               >
                 <h3 className={styles.title} style={{color: x.representColor}}>{x.title}</h3>
                 <p className={styles.galleryItemDescription}>{x.description}</p>
-                <img
+                <Image
                   className={styles.coverImg}
                   src={x.cover.src}
                   alt={x.cover.alt}
+                  width={x.cover.width}
+                  height={x.cover.height}
+                  priority={i < 4 ? true : false}
                 />
               </div>
             )
