@@ -1,6 +1,6 @@
 export const seriesInTheRoom = {
     title: "In the Room",
-    description: "The room breeds life, and life shapes the room. I look for a different self through you, you look for yourself in the room.",
+    description: "The room breeds life, and life shapes the room. I look for a different self through you, you seek yourself in the room.",
     pieces: [
       {
         title: "Play on the Swing",
