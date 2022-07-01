@@ -104,9 +104,9 @@ export const seriesCanITakeAPhotoForYou = {
     description: "There is a river in front of my house, only cars and factories here, no attractions, no tourists, no one will stop and take pictures of her. So I do, I'm a traveler passing by at different times to take a photo for you.",
     pieces: [
       {
-        title: "20220630",
+        title: "2022-06-30",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220630_131221201.jpg",
-        alt: "Can I Take a Photo for You ? - 20220630",
+        alt: "Can I Take a Photo for You ? - 2022-06-30",
         createDate: "2022-06-30",
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
@@ -114,9 +114,9 @@ export const seriesCanITakeAPhotoForYou = {
         isCover: true,
       },
       {
-        title: "20220629",
+        title: "2022-06-29",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220629_154047320.jpg",
-        alt: "Can I Take a Photo for You ? - 20220629",
+        alt: "Can I Take a Photo for You ? - 2022-06-29",
         createDate: "2022-06-29",
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
@@ -124,9 +124,9 @@ export const seriesCanITakeAPhotoForYou = {
         isCover: false,
       },
       {
-        title: "20220627",
+        title: "2022-06-27",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220627_153601251.jpg",
-        alt: "Can I Take a Photo for You ? - 20220627",
+        alt: "Can I Take a Photo for You ? - 2022-06-27",
         createDate: "2022-06-27",
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
@@ -134,9 +134,9 @@ export const seriesCanITakeAPhotoForYou = {
         isCover: false,
       },
       {
-        title: "20220626",
+        title: "2022-06-26",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220626_163721632.jpg",
-        alt: "Can I Take a Photo for You ? - 20220626",
+        alt: "Can I Take a Photo for You ? - 2022-06-26",
         createDate: "2022-06-26",
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
@@ -144,9 +144,9 @@ export const seriesCanITakeAPhotoForYou = {
         isCover: false,
       },
       {
-        title: "20220624",
+        title: "2022-06-24",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220624_093253742.jpg",
-        alt: "Can I Take a Photo for You ? - 20220624",
+        alt: "Can I Take a Photo for You ? - 2022-06-24",
         createDate: "2022-06-24",
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
@@ -154,9 +154,9 @@ export const seriesCanITakeAPhotoForYou = {
         isCover: false,
       },
       {
-        title: "20220623",
+        title: "2022-06-23",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220623_075105607.jpg",
-        alt: "Can I Take a Photo for You ? - 20220623",
+        alt: "Can I Take a Photo for You ? - 2022-06-23",
         createDate: "2022-06-23",
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
@@ -164,9 +164,9 @@ export const seriesCanITakeAPhotoForYou = {
         isCover: false,
       },
       {
-        title: "20220622",
+        title: "2022-06-22",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220622_074847108.jpg",
-        alt: "Can I Take a Photo for You ? - 20220622",
+        alt: "Can I Take a Photo for You ? - 2022-06-22",
         createDate: "2022-06-22",
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
@@ -174,9 +174,9 @@ export const seriesCanITakeAPhotoForYou = {
         isCover: false,
       },
       {
-        title: "20220610",
+        title: "2022-06-10",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220610_153057415.jpg",
-        alt: "Can I Take a Photo for You ? - 20220610",
+        alt: "Can I Take a Photo for You ? - 2022-06-10",
         createDate: "2022-06-10",
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
@@ -184,9 +184,9 @@ export const seriesCanITakeAPhotoForYou = {
         isCover: false,
       },
       {
-        title: "20220609",
+        title: "2022-06-09",
         src: "/img/can_i_take_a_photo_for_you/PXL_20220609_124848041.jpg",
-        alt: "Can I Take a Photo for You ? - 20220609",
+        alt: "Can I Take a Photo for You ? - 2022-06-09",
         createDate: "2022-06-09",
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
@@ -201,7 +201,7 @@ export const seriesCanITakeAPhotoForYou = {
 
 export const seriesExercises = {
     title: "Exercises",
-    description: "Best exercise pieces between 2015 to 2017.",
+    description: "Best exercises between 2015 to 2017.",
     pieces: [
       {
         title: "2015-06-23",
