@@ -60,7 +60,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 18rem;
+  width: 19rem;
   padding: 0.5rem;
   font-size: 1.2rem;
   line-height: 1.5;
@@ -102,7 +102,7 @@
   margin: 2rem 0 4rem;
   padding-right: 3.2rem;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.15rem;
   color: lightslategray;
 }
 
