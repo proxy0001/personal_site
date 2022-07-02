@@ -2,7 +2,7 @@ import {MdHome, MdBedroomChild, MdPhotoCamera, MdBrush} from 'react-icons/md';
 
 export const seriesInTheRoom = {
     title: "In the Room",
-    description: "The room breeds life, and life shapes the room. I look for a different self through you, you seek yourself in the room.",
+    description: "The room breeds life, and life shapes the room. I look for a different self through you, while you seek yourself in the room.",
     pieces: [
       {
         title: "Play on the Swing",
@@ -99,13 +99,13 @@ export const seriesInTheRoom = {
     link: "/series/in-the-room",
     icon: <MdBedroomChild/>,
 }
-export const seriesCanITakeAPhotoForYou = {
-    title: "Can I Take a Photo for You ?",
-    description: "There is a river in front of my house, only cars and factories here, no attractions, no tourists, no one will stop and take pictures of her. So I do, I'm a traveler passing by at different times to take a photo for you.",
+export const seriesCanITakeAPictureForYou = {
+    title: "Can I Take a Picture for you ?",
+    description: "There is a normal river in front of my house. With no tourist attraction in this area, only factories can be found. No one would stop by and take any picture of her. Because this river is not beautiful ? Or because she's been given a label say normal and nobody wants to give her a second look. So let me take a normal picture for a normal you.",
     pieces: [
       {
         title: "2022-06-30",
-        src: "/img/can_i_take_a_photo_for_you/PXL_20220630_131221201.jpg",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220630_131221201.jpg",
         alt: "Can I Take a Photo for You ? - 2022-06-30",
         createDate: "2022-06-30",
         specification: "4032 x 2268, Pixel 6",
@@ -115,7 +115,7 @@ export const seriesCanITakeAPhotoForYou = {
       },
       {
         title: "2022-06-29",
-        src: "/img/can_i_take_a_photo_for_you/PXL_20220629_154047320.jpg",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220629_154047320.jpg",
         alt: "Can I Take a Photo for You ? - 2022-06-29",
         createDate: "2022-06-29",
         specification: "4032 x 2268, Pixel 6",
@@ -125,7 +125,7 @@ export const seriesCanITakeAPhotoForYou = {
       },
       {
         title: "2022-06-27",
-        src: "/img/can_i_take_a_photo_for_you/PXL_20220627_153601251.jpg",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220627_153601251.jpg",
         alt: "Can I Take a Photo for You ? - 2022-06-27",
         createDate: "2022-06-27",
         specification: "4032 x 2268, Pixel 6",
@@ -135,7 +135,7 @@ export const seriesCanITakeAPhotoForYou = {
       },
       {
         title: "2022-06-26",
-        src: "/img/can_i_take_a_photo_for_you/PXL_20220626_163721632.jpg",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220626_163721632.jpg",
         alt: "Can I Take a Photo for You ? - 2022-06-26",
         createDate: "2022-06-26",
         specification: "4032 x 2268, Pixel 6",
@@ -145,7 +145,7 @@ export const seriesCanITakeAPhotoForYou = {
       },
       {
         title: "2022-06-24",
-        src: "/img/can_i_take_a_photo_for_you/PXL_20220624_093253742.jpg",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220624_093253742.jpg",
         alt: "Can I Take a Photo for You ? - 2022-06-24",
         createDate: "2022-06-24",
         specification: "4032 x 2268, Pixel 6",
@@ -155,7 +155,7 @@ export const seriesCanITakeAPhotoForYou = {
       },
       {
         title: "2022-06-23",
-        src: "/img/can_i_take_a_photo_for_you/PXL_20220623_075105607.jpg",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220623_075105607.jpg",
         alt: "Can I Take a Photo for You ? - 2022-06-23",
         createDate: "2022-06-23",
         specification: "4032 x 2268, Pixel 6",
@@ -165,7 +165,7 @@ export const seriesCanITakeAPhotoForYou = {
       },
       {
         title: "2022-06-22",
-        src: "/img/can_i_take_a_photo_for_you/PXL_20220622_074847108.jpg",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220622_074847108.jpg",
         alt: "Can I Take a Photo for You ? - 2022-06-22",
         createDate: "2022-06-22",
         specification: "4032 x 2268, Pixel 6",
@@ -175,7 +175,7 @@ export const seriesCanITakeAPhotoForYou = {
       },
       {
         title: "2022-06-10",
-        src: "/img/can_i_take_a_photo_for_you/PXL_20220610_153057415.jpg",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220610_153057415.jpg",
         alt: "Can I Take a Photo for You ? - 2022-06-10",
         createDate: "2022-06-10",
         specification: "4032 x 2268, Pixel 6",
@@ -185,7 +185,7 @@ export const seriesCanITakeAPhotoForYou = {
       },
       {
         title: "2022-06-09",
-        src: "/img/can_i_take_a_photo_for_you/PXL_20220609_124848041.jpg",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220609_124848041.jpg",
         alt: "Can I Take a Photo for You ? - 2022-06-09",
         createDate: "2022-06-09",
         specification: "4032 x 2268, Pixel 6",
@@ -195,17 +195,17 @@ export const seriesCanITakeAPhotoForYou = {
       },
     ],
     representColor: "cornsilk",
-    link: "/series/can-i-take-a-photo-for-you",
+    link: "/series/can-i-take-a-picture-for-you",
     icon: <MdPhotoCamera/>,
 }
 
-export const seriesExercises = {
-    title: "Exercises",
-    description: "Best exercises between 2015 to 2017.",
+export const seriesPreviousWorks = {
+    title: "Previous Works",
+    description: "Portfolio from 2015 to 2017.",
     pieces: [
       {
         title: "2015-06-23",
-        src: "/img/exercises/2015-06-23.jpg",
+        src: "/img/previous_works/2015-06-23.jpg",
         alt: "Exercise - 2015-06-23",
         createDate: "2015-06-23",
         specification: "1920 x 1080",
@@ -215,7 +215,7 @@ export const seriesExercises = {
       },
       {
         title: "2015-06-26",
-        src: "/img/exercises/2015-06-26.jpg",
+        src: "/img/previous_works/2015-06-26.jpg",
         alt: "Exercise - 2015-06-26",
         createDate: "2015-06-26",
         specification: "1920 x 1080",
@@ -225,7 +225,7 @@ export const seriesExercises = {
       },
       {
         title: "2016-05-05",
-        src: "/img/exercises/2016-05-05.jpg",
+        src: "/img/previous_works/2016-05-05.jpg",
         alt: "Exercise - 2016-05-05",
         createDate: "2016-05-05",
         specification: "2048 x 1152",
@@ -235,7 +235,7 @@ export const seriesExercises = {
       },
       {
         title: "2016-12-30",
-        src: "/img/exercises/2016-12-30.jpg",
+        src: "/img/previous_works/2016-12-30.jpg",
         alt: "Exercise - 2016-12-30",
         createDate: "2016-12-30",
         specification: "1920 x 1080",
@@ -245,7 +245,7 @@ export const seriesExercises = {
       },
       {
         title: "2017-01-02",
-        src: "/img/exercises/2017-01-02.jpg",
+        src: "/img/previous_works/2017-01-02.jpg",
         alt: "Exercise - 2017-01-02",
         createDate: "2017-01-02",
         specification: "1920 x 1080",
@@ -255,7 +255,7 @@ export const seriesExercises = {
       },
       {
         title: "2017-03-24",
-        src: "/img/exercises/2017-03-24.jpg",
+        src: "/img/previous_works/2017-03-24.jpg",
         alt: "Exercise - 2017-03-24",
         createDate: "2017-03-24",
         specification: "1920 x 1080",
@@ -265,17 +265,17 @@ export const seriesExercises = {
       },
     ],
     representColor: "lightpink",
-    link: "/series/exercises",
+    link: "/series/previous-works",
     icon: <MdBrush/>,
 }
 
 export const me = {
     title: "proxy0001",
-    description: "How to be an artist? My latest occupation was software planner and front-end engineer for a total of 7 years. Earlier I studied animation and post-production, but at that time, I never thought of myself as an artist. After years of doing nothing in this field, I'm back to draw with a feeling that I'm an artist.",
+    description: "Why did I become an artist? I previously worked as a software planner and front-end engineer for seven years. Although I majored in animation in college and worked in a video studio for post-production for nearly a year. But at that time, I feel like I'm limited and I want to try all different things I can do and I want to do. So I putted down all my skills and started a new journey. After years of exploring other fields to enrich my understanding of some common principles in any field, I am picking back up the drawing pen, feeling ready to do art, to create another new me.",
     gallery: [
         seriesInTheRoom,
-        seriesCanITakeAPhotoForYou,
-        seriesExercises,
+        seriesCanITakeAPictureForYou,
+        seriesPreviousWorks,
     ].map((x, i) => {
         return {
             title: x.title,
@@ -304,16 +304,16 @@ export const menuOptions = [
         icon: seriesInTheRoom.icon,
     },
     {  
-        text: seriesCanITakeAPhotoForYou.title,
-        link: seriesCanITakeAPhotoForYou.link,
-        representColor: seriesCanITakeAPhotoForYou.representColor,
-        icon: seriesCanITakeAPhotoForYou.icon,
+        text: seriesCanITakeAPictureForYou.title,
+        link: seriesCanITakeAPictureForYou.link,
+        representColor: seriesCanITakeAPictureForYou.representColor,
+        icon: seriesCanITakeAPictureForYou.icon,
     },
     {  
-        text: seriesExercises.title,
-        link: seriesExercises.link,
-        representColor: seriesExercises.representColor,
-        icon: seriesExercises.icon,
+        text: seriesPreviousWorks.title,
+        link: seriesPreviousWorks.link,
+        representColor: seriesPreviousWorks.representColor,
+        icon: seriesPreviousWorks.icon,
     },
 ]
 
