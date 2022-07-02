@@ -166,11 +166,14 @@
   padding: 0 1.5rem 0 1rem;
   margin-left: 2rem;
   z-index: 1;
-  font-size: 0.8rem;
+}
+
+.series .seriesHead h2 {
+  font-size: 1.3rem;
 }
 
 .series .seriesHead h2 svg {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   margin-right: 0.6rem;
 }
 
@@ -183,6 +186,7 @@
   max-width: calc(100vw - 1rem);
   left: 0;
   line-height: 1.5;
+  font-size: 1rem;
 }
 
 .series .seriesDescription.deactivate {
@@ -256,12 +260,18 @@
     top: 3.6rem;
   }
   .series .seriesHead {
-    font-size: 0.8rem;
     margin-left: 5rem;
   }
-  .series .seriesHead h2 svg {
-    font-size: 1.8rem;
+  .series .seriesHead h2{
+    font-size: 1.4rem;
     margin-right: 0.6rem;
+  }
+  .series .seriesHead h2 svg {
+    font-size: 1.6rem;
+    margin-right: 0.6rem;
+  }
+  .series .seriesDescription {
+    font-size: 1rem;
   }
   .series .collapseBtn {
     bottom: -0.6rem;
@@ -293,12 +303,17 @@
     top: 3.4rem;
   }
   .series .seriesHead {
-    font-size: 0.7rem;
     margin-left: 1rem;
+  }
+  .series .seriesHead h2 {
+    font-size: 1.2rem;
   }
   .series .seriesHead h2 svg {
     font-size: 1.4rem;
     margin-right: 0.5rem;
+  }
+  .series .seriesDescription {
+    font-size: 1rem;
   }
   .series .collapseBtn {
     bottom: -0.5rem;
@@ -333,13 +348,18 @@
     top: 3.2rem;
   }
   .series .seriesHead {
-    font-size: 0.6rem;
     /* margin-left: 0.25rem; */
     margin-left: 0rem;
+  }
+  .series .seriesHead h2 {
+    font-size: 1rem;
   }
   .series .seriesHead h2 svg {
     font-size: 1.2rem;
     margin-right: 0.4rem;
+  }
+  .series .seriesDescription {
+    font-size: 0.8rem;
   }
   .series .collapseBtn {
     bottom: -0.4rem;
