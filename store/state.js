@@ -5,6 +5,16 @@ export const seriesInTheRoom = {
     description: "The room breeds life, and life shapes the room. I look for a different self through you, while you seek yourself in the room.",
     pieces: [
       {
+        title: "Be Protected",
+        src: "/img/in_the_room/In_the_Room-Be_Protected_1080P.jpg",
+        alt: "In the Room - Be Protected",
+        createDate: "2022-07-03",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
+        isCover: true,
+      },
+      {
         title: "Play on the Swing",
         src: "/img/in_the_room/In_the_Room-Play_on_the_Swing_1080P.jpg",
         alt: "In the Room - Play on the Swing",
@@ -12,7 +22,7 @@ export const seriesInTheRoom = {
         specification: "7680 x 4320",
         width: 7680,
         height: 4320,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "Project Me",
@@ -101,8 +111,18 @@ export const seriesInTheRoom = {
 }
 export const seriesCanITakeAPictureForYou = {
     title: "Can I Take a Picture for you ?",
-    description: "There is a normal river in front of my house. With no tourist attraction in this area, only factories can be found. No one would stop by and take any picture of her. Because this river is not beautiful ? Or because she's been given a label say normal and nobody wants to give her a second look. So let me take a normal picture for a normal you.",
+    description: "There is an river in front of my house. With no tourist attraction in this area, only factories can be found. No one would stop by and take any picture of her. Does it mean that this river is not beautiful ? Or because she's been given a label say normal and nobody wants to give her a second look.",
     pieces: [
+      {
+        title: "2022-07-01",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220701_132305037.jpg",
+        alt: "Can I Take a Photo for You ? - 2022-07-01",
+        createDate: "2022-07-01",
+        specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
+        isCover: true,
+      },
       {
         title: "2022-06-30",
         src: "/img/can_i_take_a_picture_for_you/PXL_20220630_131221201.jpg",
@@ -111,7 +131,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-06-29",
@@ -199,13 +219,13 @@ export const seriesCanITakeAPictureForYou = {
     icon: <MdPhotoCamera/>,
 }
 
-export const seriesPreviousWorks = {
-    title: "Previous Works",
-    description: "Portfolio from 2015 to 2017.",
+export const seriesPortfolioFrom2015To2017 = {
+    title: "Portfolio from 2015 to 2017",
+    description: "",
     pieces: [
       {
         title: "2015-06-23",
-        src: "/img/previous_works/2015-06-23.jpg",
+        src: "/img/portfolio_from_2015_to_2017/2015-06-23.jpg",
         alt: "Exercise - 2015-06-23",
         createDate: "2015-06-23",
         specification: "1920 x 1080",
@@ -215,7 +235,7 @@ export const seriesPreviousWorks = {
       },
       {
         title: "2015-06-26",
-        src: "/img/previous_works/2015-06-26.jpg",
+        src: "/img/portfolio_from_2015_to_2017/2015-06-26.jpg",
         alt: "Exercise - 2015-06-26",
         createDate: "2015-06-26",
         specification: "1920 x 1080",
@@ -225,7 +245,7 @@ export const seriesPreviousWorks = {
       },
       {
         title: "2016-05-05",
-        src: "/img/previous_works/2016-05-05.jpg",
+        src: "/img/portfolio_from_2015_to_2017/2016-05-05.jpg",
         alt: "Exercise - 2016-05-05",
         createDate: "2016-05-05",
         specification: "2048 x 1152",
@@ -235,7 +255,7 @@ export const seriesPreviousWorks = {
       },
       {
         title: "2016-12-30",
-        src: "/img/previous_works/2016-12-30.jpg",
+        src: "/img/portfolio_from_2015_to_2017/2016-12-30.jpg",
         alt: "Exercise - 2016-12-30",
         createDate: "2016-12-30",
         specification: "1920 x 1080",
@@ -245,7 +265,7 @@ export const seriesPreviousWorks = {
       },
       {
         title: "2017-01-02",
-        src: "/img/previous_works/2017-01-02.jpg",
+        src: "/img/portfolio_from_2015_to_2017/2017-01-02.jpg",
         alt: "Exercise - 2017-01-02",
         createDate: "2017-01-02",
         specification: "1920 x 1080",
@@ -255,7 +275,7 @@ export const seriesPreviousWorks = {
       },
       {
         title: "2017-03-24",
-        src: "/img/previous_works/2017-03-24.jpg",
+        src: "/img/portfolio_from_2015_to_2017/2017-03-24.jpg",
         alt: "Exercise - 2017-03-24",
         createDate: "2017-03-24",
         specification: "1920 x 1080",
@@ -265,17 +285,17 @@ export const seriesPreviousWorks = {
       },
     ],
     representColor: "lightpink",
-    link: "/series/previous-works",
+    link: "/series/portfolio-from-2015-to-2017",
     icon: <MdBrush/>,
 }
 
 export const me = {
     title: "proxy0001",
-    description: "Why did I become an artist? I previously worked as a software planner and front-end engineer for seven years. Although I majored in animation in college and worked in a video studio for post-production for nearly a year. But at that time, I feel like I'm limited and I want to try all different things I can do and I want to do. So I putted down all my skills and started a new journey. After years of exploring other fields to enrich my understanding of some common principles in any field, I am picking back up the drawing pen, feeling ready to do art, to create another new me.",
+    description: "Why did I decide to be an artist? In fact, I majored in animation in college and later worked in the post-production department of a video studio for nearly a year. But during that time, I felt limited and had a strong urge to explore what I was capable of in some of the fields that I had been interested in. So I started a new journey and became a software planner and front-end engineer for seven years. After years of exploring, which enriches my understanding of common principles in many other fields, I am picking back up my drawing pen, feeling ready to do art and create a brand new self along the way.",
     gallery: [
         seriesInTheRoom,
         seriesCanITakeAPictureForYou,
-        seriesPreviousWorks,
+        seriesPortfolioFrom2015To2017,
     ].map((x, i) => {
         return {
             title: x.title,
@@ -310,10 +330,10 @@ export const menuOptions = [
         icon: seriesCanITakeAPictureForYou.icon,
     },
     {  
-        text: seriesPreviousWorks.title,
-        link: seriesPreviousWorks.link,
-        representColor: seriesPreviousWorks.representColor,
-        icon: seriesPreviousWorks.icon,
+        text: seriesPortfolioFrom2015To2017.title,
+        link: seriesPortfolioFrom2015To2017.link,
+        representColor: seriesPortfolioFrom2015To2017.representColor,
+        icon: seriesPortfolioFrom2015To2017.icon,
     },
 ]
 
