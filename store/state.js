@@ -5,6 +5,16 @@ export const seriesInTheRoom = {
     description: "The room breeds life, and life shapes the room. I look for a different self through you, while you seek yourself in the room.",
     pieces: [
       {
+        title: "Be Protected",
+        src: "/img/in_the_room/In_the_Room-Be_Protected_1080P.jpg",
+        alt: "In the Room - Be Protected",
+        createDate: "2022-07-03",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
+        isCover: true,
+      },
+      {
         title: "Play on the Swing",
         src: "/img/in_the_room/In_the_Room-Play_on_the_Swing_1080P.jpg",
         alt: "In the Room - Play on the Swing",
@@ -12,7 +22,7 @@ export const seriesInTheRoom = {
         specification: "7680 x 4320",
         width: 7680,
         height: 4320,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "Project Me",
@@ -104,6 +114,16 @@ export const seriesCanITakeAPictureForYou = {
     description: "There is an river in front of my house. With no tourist attraction in this area, only factories can be found. No one would stop by and take any picture of her. Does it mean that this river is not beautiful ? Or because she's been given a label say normal and nobody wants to give her a second look.",
     pieces: [
       {
+        title: "2022-07-01",
+        src: "/img/can_i_take_a_picture_for_you/PXL_20220701_132305037.jpg",
+        alt: "Can I Take a Photo for You ? - 2022-07-01",
+        createDate: "2022-07-01",
+        specification: "4032 x 2268, Pixel 6",
+        width: 4032,
+        height: 2268,
+        isCover: true,
+      },
+      {
         title: "2022-06-30",
         src: "/img/can_i_take_a_picture_for_you/PXL_20220630_131221201.jpg",
         alt: "Can I Take a Photo for You ? - 2022-06-30",
@@ -111,7 +131,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-06-29",
