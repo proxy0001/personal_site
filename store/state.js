@@ -5,6 +5,16 @@ export const seriesInTheRoom = {
     description: "The room breeds life, and life shapes the room. I look for a different self through you, while you seek yourself in the room.",
     pieces: [
       {
+        title: "Nervous",
+        src: "/img/in_the_room/In_the_Room-Nervous_1080P.jpg",
+        alt: "In the Room - Nervous",
+        createDate: "2022-07-06",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
+        isCover: true,
+      },
+      {
         title: "Be Protected",
         src: "/img/in_the_room/In_the_Room-Be_Protected_1080P.jpg",
         alt: "In the Room - Be Protected",
@@ -12,7 +22,7 @@ export const seriesInTheRoom = {
         specification: "7680 x 4320",
         width: 7680,
         height: 4320,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "Play on the Swing",
