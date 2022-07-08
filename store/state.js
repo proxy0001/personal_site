@@ -5,9 +5,9 @@ export const seriesInTheRoom = {
     description: "The room breeds life, and life shapes the room. I look for a different self through you, while you seek yourself in the room.",
     pieces: [
       {
-        title: "Put on Headphones",
-        src: "/img/in_the_room/In_the_Room-Put_on_Headphones_1080P.jpg",
-        alt: "In the Room - Put on Headphones",
+        title: "Put on Earphones",
+        src: "/img/in_the_room/In_the_Room-Put_on_Earphones_1080P.jpg",
+        alt: "In the Room - Put on Earphones",
         createDate: "2022-07-08",
         specification: "7680 x 4320",
         width: 7680,
