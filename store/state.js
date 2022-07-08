@@ -5,6 +5,16 @@ export const seriesInTheRoom = {
     description: "The room breeds life, and life shapes the room. I look for a different self through you, while you seek yourself in the room.",
     pieces: [
       {
+        title: "Remix in Earphones",
+        src: "/img/in_the_room/In_the_Room-Remix_in_Earphones_1080P.jpg",
+        alt: "In the Room - Remix in Earphones",
+        createDate: "2022-07-09",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
+        isCover: true,
+      },
+      {
         title: "Put on Earphones",
         src: "/img/in_the_room/In_the_Room-Put_on_Earphones_1080P.jpg",
         alt: "In the Room - Put on Earphones",
@@ -12,7 +22,7 @@ export const seriesInTheRoom = {
         specification: "7680 x 4320",
         width: 7680,
         height: 4320,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "Nervous",
