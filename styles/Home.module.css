@@ -139,7 +139,11 @@
 }
 
 .gallery .coverImg {
+  position: relative;
+  top: 0;
+  left: 0;
   width: 100%;
+  margin: auto;
 }
 
 .series {
@@ -225,13 +229,22 @@
 }
 
 .piece .pieceImg {
+  position: relative;
+  top: 0;
+  left: 0;
   width: 100%;
+  margin: 0 auto;
+}
+
+.piece .pieceImg > span {
+  max-height: 80vh;
 }
 
 .piece .pieceFoot {
   color: lightslategray;
   font-size: 0.8rem;
   text-align: right;
+  margin-top: 0.4rem;
 }
 
 .piece p {
@@ -371,6 +384,9 @@
   .description {
     margin-bottom: 2rem;
     padding-right: 0rem;
+  }
+  .piece .pieceImg {
+    width: 100% !important;
   }
 }
 

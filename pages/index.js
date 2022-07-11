@@ -49,14 +49,17 @@ export default function Home() {
               >
                 <h3 className={styles.title} style={{color: x.representColor}}>{x.title}</h3>
                 <p className={styles.galleryItemDescription}>{x.description}</p>
-                <Image
-                  className={styles.coverImg}
-                  src={x.cover.src}
-                  alt={x.cover.alt}
-                  width={x.cover.width}
-                  height={x.cover.height}
-                  priority={i < 4 ? true : false}
-                />
+                <div className={styles.coverImg} style={{width: x.cover.width < x.cover.height ? (x.cover.width / x.cover.height) * 100 + '%' : null}}>
+                  <Image
+                    src={x.cover.src}
+                    alt={x.cover.alt}
+                    width={x.cover.width}
+                    height={x.cover.height}
+                    layout="responsive"
+                    objectFit="contain"
+                    priority={i < 4 ? true : false}
+                  />
+                </div>
               </div>
             )
           }
