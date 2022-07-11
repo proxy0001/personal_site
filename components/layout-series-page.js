@@ -38,15 +38,24 @@ export default function LayoutSeriesPage (props) {
           {props.pieces.map((x, i) =>
             <div className={styles.piece} key={i}>
               <h3>{x.title}</h3>
-              <Image
+              <div
                 className={styles.pieceImg}
-                src={x.src}
-                alt={x.alt}
-                width={x.width}
-                height={x.height}
-                priority={i < 2 ? true : false}
-              />
-              <div className={styles.pieceFoot}>{`${x.specification}, ${x.createDate}`}</div>
+                style={{width: x.width < x.height ? (x.width / x.height) * 100 + '%' : null}}
+              >
+                <Image
+                  src={x.src}
+                  alt={x.alt}
+                  width={x.width}
+                  height={x.height}
+                  layout="responsive"
+                  objectFit="contain"
+                  priority={i < 2 ? true : false}
+                />
+              </div>
+              <div
+                className={styles.pieceFoot}
+                style={{textAlign: x.width < x.height ? 'center' : null}}
+              >{`${x.specification}, ${x.createDate}`}</div>
             </div>
           )}
         </div>
