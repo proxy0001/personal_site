@@ -1,5 +1,25 @@
 import {MdHome, MdBedroomChild, MdPhotoCamera, MdBrush} from 'react-icons/md';
 
+export const seriesViewpoints = {
+  title: "Viewpoints",
+  description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
+  pieces: [
+    {
+      title: "The Same",
+      src: "/img/viewpoints/Viewpoints-The_Same_1080P.jpg",
+      alt: "Viewpoints - The Same",
+      createDate: "2022-07-11",
+      specification: "4320 x 7680",
+      width: 4320,
+      height: 7680,
+      isCover: true,
+    },
+  ],
+  representColor: "greenyellow",
+  link: "/series/viewpoints",
+  icon: <MdBedroomChild/>,
+}
+
 export const seriesInTheRoom = {
     title: "In the Room",
     description: "The room breeds life, and life shapes the room. I look for a different self through you, while you seek yourself in the room.",
@@ -323,6 +343,7 @@ export const me = {
     title: "proxy0001",
     description: "Why did I decide to be an artist? In fact, I majored in animation in college and later worked in the post-production department of a video studio for nearly a year. But during that time, I felt limited and had a strong urge to explore what I was capable of in some of the fields that I had been interested in. So I started a new journey and became a software planner and front-end engineer for seven years. After years of exploring, which enriches my understanding of common principles in many other fields, I am picking back up my drawing pen, feeling ready to do art and create a brand new self along the way.",
     gallery: [
+        seriesViewpoints,
         seriesInTheRoom,
         seriesCanITakeAPictureForYou,
         seriesPortfolioFrom2015To2017,
@@ -346,6 +367,12 @@ export const menuOptions = [
         link: "/",
         icon: me.icon,
         isSystemColor: true,
+    },
+    {
+        text: seriesViewpoints.title,
+        link: seriesViewpoints.link,
+        representColor: seriesViewpoints.representColor,
+        icon: seriesViewpoints.icon,
     },
     {
         text: seriesInTheRoom.title,
