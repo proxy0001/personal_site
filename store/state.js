@@ -5,6 +5,16 @@ export const seriesViewpoints = {
   description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
   pieces: [
     {
+      title: "Summary",
+      src: "/img/viewpoints/Viewpoints-Summary_1080P.jpg",
+      alt: "Viewpoints - Summary",
+      createDate: "2022-07-12",
+      specification: "4320 x 5400",
+      width: 4320,
+      height: 5400,
+      isCover: true,
+    },
+    {
       title: "The Same",
       src: "/img/viewpoints/Viewpoints-The_Same_1080P.jpg",
       alt: "Viewpoints - The Same",
@@ -12,7 +22,7 @@ export const seriesViewpoints = {
       specification: "4320 x 7680",
       width: 4320,
       height: 7680,
-      isCover: true,
+      isCover: false,
     },
   ],
   representColor: "greenyellow",
