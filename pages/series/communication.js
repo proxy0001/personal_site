@@ -1,5 +1,5 @@
 import LayoutSeriesPage from 'components/layout-series-page';
-import { env, seriesViewpoints as seriesData } from 'store/state';
+import { env, seriesCommunication as seriesData } from 'store/state';
 
 export default function SeriesViewpoints() {
   return (
