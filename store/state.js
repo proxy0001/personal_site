@@ -1,4 +1,4 @@
-import {MdSwapVerticalCircle, MdHome, MdBedroomChild, MdPhotoCamera, MdBrush} from 'react-icons/md';
+import {MdSwapHorizontalCircle, MdHome, MdBedroomChild, MdPhotoCamera, MdBrush} from 'react-icons/md';
 
 export const seriesCommunication = {
   title: "Communication",
@@ -37,7 +37,7 @@ export const seriesCommunication = {
   ],
   representColor: "violet",
   link: "/series/communication",
-  icon: <MdSwapVerticalCircle/>,
+  icon: <MdSwapHorizontalCircle/>,
 }
 
 export const seriesInTheRoom = {
