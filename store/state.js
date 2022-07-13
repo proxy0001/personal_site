@@ -1,32 +1,42 @@
 import {MdHome, MdBedroomChild, MdPhotoCamera, MdBrush} from 'react-icons/md';
 
-export const seriesViewpoints = {
-  title: "Viewpoints",
+export const seriesCommunication = {
+  title: "Communication",
   description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
   pieces: [
     {
-      title: "Summary",
-      src: "/img/viewpoints/Viewpoints-Summary_1080P.jpg",
-      alt: "Viewpoints - Summary",
-      createDate: "2022-07-12",
+      title: "Cognitive Bias",
+      src: "/img/communication/Communication-Cognitive_Bias_1080P.jpg",
+      alt: "Communication - Cognitive Bias",
+      createDate: "2022-07-13",
       specification: "4320 x 5400",
       width: 4320,
       height: 5400,
       isCover: true,
     },
     {
-      title: "The Same",
-      src: "/img/viewpoints/Viewpoints-The_Same_1080P.jpg",
-      alt: "Viewpoints - The Same",
-      createDate: "2022-07-11",
-      specification: "4320 x 7680",
+      title: "Summary",
+      src: "/img/communication/Communication-Summary_1080P.jpg",
+      alt: "Communication - Summary",
+      createDate: "2022-07-12",
+      specification: "4320 x 5400",
       width: 4320,
-      height: 7680,
+      height: 5400,
+      isCover: false,
+    },
+    {
+      title: "The Same",
+      src: "/img/communication/Communication-The_Same_1080P.jpg",
+      alt: "Communication - The Same",
+      createDate: "2022-07-11",
+      specification: "4320 x 5400",
+      width: 4320,
+      height: 5400,
       isCover: false,
     },
   ],
   representColor: "greenyellow",
-  link: "/series/viewpoints",
+  link: "/series/communication",
   icon: <MdBedroomChild/>,
 }
 
@@ -353,7 +363,7 @@ export const me = {
     title: "proxy0001",
     description: "Why did I decide to be an artist? In fact, I majored in animation in college and later worked in the post-production department of a video studio for nearly a year. But during that time, I felt limited and had a strong urge to explore what I was capable of in some of the fields that I had been interested in. So I started a new journey and became a software planner and front-end engineer for seven years. After years of exploring, which enriches my understanding of common principles in many other fields, I am picking back up my drawing pen, feeling ready to do art and create a brand new self along the way.",
     gallery: [
-        seriesViewpoints,
+        seriesCommunication,
         seriesInTheRoom,
         seriesCanITakeAPictureForYou,
         seriesPortfolioFrom2015To2017,
@@ -379,10 +389,10 @@ export const menuOptions = [
         isSystemColor: true,
     },
     {
-        text: seriesViewpoints.title,
-        link: seriesViewpoints.link,
-        representColor: seriesViewpoints.representColor,
-        icon: seriesViewpoints.icon,
+        text: seriesCommunication.title,
+        link: seriesCommunication.link,
+        representColor: seriesCommunication.representColor,
+        icon: seriesCommunication.icon,
     },
     {
         text: seriesInTheRoom.title,
