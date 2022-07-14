@@ -5,6 +5,16 @@ export const seriesCommunication = {
   description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
   pieces: [
     {
+      title: "Inner Piece",
+      src: "/img/communication/Communication-Inner_Peace_1080P.jpg",
+      alt: "Communication - Inner Piece",
+      createDate: "2022-07-14",
+      specification: "4320 x 5400",
+      width: 4320,
+      height: 5400,
+      isCover: true,
+    },
+    {
       title: "Cognitive Bias",
       src: "/img/communication/Communication-Cognitive_Bias_1080P.jpg",
       alt: "Communication - Cognitive Bias",
@@ -12,7 +22,7 @@ export const seriesCommunication = {
       specification: "4320 x 5400",
       width: 4320,
       height: 5400,
-      isCover: true,
+      isCover: false,
     },
     {
       title: "Summary",
