@@ -5,6 +5,16 @@ export const seriesCommunication = {
   description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
   pieces: [
     {
+      title: "Expectations",
+      src: "/img/communication/Communication-Expectations_1080P.jpg",
+      alt: "Communication - Expectations",
+      createDate: "2022-07-20",
+      specification: "4320 x 5400",
+      width: 4320,
+      height: 5400,
+      isCover: true,
+    },
+    {
       title: "Conceal",
       src: "/img/communication/Communication-Conceal_1080P.jpg",
       alt: "Communication - Conseal",
@@ -12,7 +22,7 @@ export const seriesCommunication = {
       specification: "4320 x 5400",
       width: 4320,
       height: 5400,
-      isCover: true,
+      isCover: false,
     },
     {
       title: "A Different Light",
