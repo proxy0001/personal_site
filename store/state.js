@@ -5,6 +5,16 @@ export const seriesCommunication = {
   description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
   pieces: [
     {
+      title: "Rules",
+      src: "/img/communication/Communication-Rules_1080P.jpg",
+      alt: "Communication - Rules",
+      createDate: "2022-07-22",
+      specification: "4320 x 5400",
+      width: 4320,
+      height: 5400,
+      isCover: true,
+    },
+    {
       title: "Emotional Blackmail",
       src: "/img/communication/Communication-Emotional_Blackmail_1080P.jpg",
       alt: "Communication - Emotional Blackmail",
@@ -12,7 +22,7 @@ export const seriesCommunication = {
       specification: "4320 x 5400",
       width: 4320,
       height: 5400,
-      isCover: true,
+      isCover: false,
     },
     {
       title: "Expectations",
