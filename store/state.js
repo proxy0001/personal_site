@@ -5,18 +5,28 @@ export const seriesCommunication = {
   description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
   pieces: [
     {
-      title: "Emotional Blackmail",
-      src: "/img/communication/Communication-Emotional_Blackmail_1080P.jpg",
-      alt: "Communication - Emotional Blackmail",
-      createDate: "2022-07-22",
+      title: "Rules",
+      src: "/img/communication/Communication-Rules_1080P.png",
+      alt: "Communication - Rules",
+      createDate: "2022-07-23",
       specification: "4320 x 5400",
       width: 4320,
       height: 5400,
       isCover: true,
     },
     {
+      title: "Emotional Blackmail",
+      src: "/img/communication/Communication-Emotional_Blackmail_1080P.png",
+      alt: "Communication - Emotional Blackmail",
+      createDate: "2022-07-22",
+      specification: "4320 x 5400",
+      width: 4320,
+      height: 5400,
+      isCover: false,
+    },
+    {
       title: "Expectations",
-      src: "/img/communication/Communication-Expectations_1080P.jpg",
+      src: "/img/communication/Communication-Expectations_1080P.png",
       alt: "Communication - Expectations",
       createDate: "2022-07-20",
       specification: "4320 x 5400",
@@ -26,7 +36,7 @@ export const seriesCommunication = {
     },
     {
       title: "Conceal",
-      src: "/img/communication/Communication-Conceal_1080P.jpg",
+      src: "/img/communication/Communication-Conceal_1080P.png",
       alt: "Communication - Conseal",
       createDate: "2022-07-19",
       specification: "4320 x 5400",
@@ -36,7 +46,7 @@ export const seriesCommunication = {
     },
     {
       title: "A Different Light",
-      src: "/img/communication/Communication-A_Different_Light_1080P.jpg",
+      src: "/img/communication/Communication-A_Different_Light_1080P.png",
       alt: "Communication - A Different Light",
       createDate: "2022-07-15",
       specification: "4320 x 5400",
@@ -46,7 +56,7 @@ export const seriesCommunication = {
     },
     {
       title: "Inner Piece",
-      src: "/img/communication/Communication-Inner_Peace_1080P.jpg",
+      src: "/img/communication/Communication-Inner_Peace_1080P.png",
       alt: "Communication - Inner Piece",
       createDate: "2022-07-14",
       specification: "4320 x 5400",
@@ -56,7 +66,7 @@ export const seriesCommunication = {
     },
     {
       title: "Cognitive Bias",
-      src: "/img/communication/Communication-Cognitive_Bias_1080P.jpg",
+      src: "/img/communication/Communication-Cognitive_Bias_1080P.png",
       alt: "Communication - Cognitive Bias",
       createDate: "2022-07-13",
       specification: "4320 x 5400",
@@ -66,7 +76,7 @@ export const seriesCommunication = {
     },
     {
       title: "Summary",
-      src: "/img/communication/Communication-Summary_1080P.jpg",
+      src: "/img/communication/Communication-Summary_1080P.png",
       alt: "Communication - Summary",
       createDate: "2022-07-12",
       specification: "4320 x 5400",
@@ -76,7 +86,7 @@ export const seriesCommunication = {
     },
     {
       title: "The Same",
-      src: "/img/communication/Communication-The_Same_1080P.jpg",
+      src: "/img/communication/Communication-The_Same_1080P.png",
       alt: "Communication - The Same",
       createDate: "2022-07-11",
       specification: "4320 x 5400",
