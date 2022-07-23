@@ -8,7 +8,7 @@ export const seriesCommunication = {
       title: "Rules",
       src: "/img/communication/Communication-Rules_1080P.jpg",
       alt: "Communication - Rules",
-      createDate: "2022-07-22",
+      createDate: "2022-07-23",
       specification: "4320 x 5400",
       width: 4320,
       height: 5400,
