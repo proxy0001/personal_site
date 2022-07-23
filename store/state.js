@@ -105,6 +105,16 @@ export const seriesInTheRoom = {
     description: "The room breeds life, and life shapes the room. I look for a different self through you, while you seek yourself in the room.",
     pieces: [
       {
+        title: "Be a Man",
+        src: "/img/in_the_room/In_the_Room-Be_a_Man_1080P.jpg",
+        alt: "In the Room - Be a Man",
+        createDate: "2022-07-24",
+        specification: "7680 x 4320",
+        width: 7680,
+        height: 4320,
+        isCover: false,
+      },
+      {
         title: "Remix in Earphones",
         src: "/img/in_the_room/In_the_Room-Remix_in_Earphones_1080P.jpg",
         alt: "In the Room - Remix in Earphones",
