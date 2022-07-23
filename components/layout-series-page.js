@@ -49,7 +49,7 @@ export default function LayoutSeriesPage (props) {
                   height={x.height}
                   layout="responsive"
                   objectFit="contain"
-                  priority={i < 2 ? true : false}
+                  priority={i < 4 ? true : false}
                   unoptimized={true}
                 />
               </div>
