@@ -55,7 +55,6 @@ export default function LayoutSeriesPage (props) {
               </div>
               <div
                 className={styles.pieceFoot}
-                style={{textAlign: x.width < x.height ? 'center' : null}}
               >{`${x.specification}, ${x.createDate}`}</div>
             </div>
           )}
