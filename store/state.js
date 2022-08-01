@@ -5,7 +5,7 @@ export const seriesCommunication = {
   description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
   pieces: [
     {
-      title: "Brain-sailling",
+      title: "Brain-sailing",
       src: "/img/communication/Communication-Brain-sailing_1080P.png",
       alt: "Communication - Brain-sailing",
       createDate: "2022-08-01",
