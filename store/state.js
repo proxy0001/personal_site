@@ -5,6 +5,16 @@ export const seriesCommunication = {
   description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
   pieces: [
     {
+      title: "Brain-sailling",
+      src: "/img/communication/Communication-Brain-sailing_1080P.png",
+      alt: "Communication - Brain-sailing",
+      createDate: "2022-08-01",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: true,
+    },
+    {
       title: "Inertial Thinking",
       src: "/img/communication/Communication-Inertial_Thinking_1080P.png",
       alt: "Communication - Inertial Thinking",
@@ -12,7 +22,7 @@ export const seriesCommunication = {
       specification: "6000 x 9000",
       width: 6000,
       height: 9000,
-      isCover: true,
+      isCover: false,
     },
     {
       title: "Memory",
@@ -513,6 +523,16 @@ export const seriesPixel6 = {
   title: "Pixel 6",
   description: "Shooting everyday scenes directly with my phone Pixel 6.",
   pieces: [
+    {
+      title: "Xinzhuang",
+      src: "/img/pixel_6/PXL_20220801_113323143.jpg",
+      alt: "Xinzhuang, Taiwan",
+      createDate: "2022-08-01",
+      specification: "4032 x 2268, Taiwan",
+      width: 4032,
+      height: 2268,
+      isCover: false,
+    },
     {
       title: "Xinzhuang",
       src: "/img/pixel_6/PXL_20220729_155441785~2.jpg",
