@@ -5,6 +5,16 @@ export const seriesCommunication = {
   description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
   pieces: [
     {
+      title: "Deposit",
+      src: "/img/communication/Communication-Deposit_1080P.png",
+      alt: "Communication - Deposit",
+      createDate: "2022-08-04",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: true,
+    },
+    {
       title: "Brain-sailing",
       src: "/img/communication/Communication-Brain-sailing_1080P.png",
       alt: "Communication - Brain-sailing",
@@ -12,7 +22,7 @@ export const seriesCommunication = {
       specification: "6000 x 9000",
       width: 6000,
       height: 9000,
-      isCover: true,
+      isCover: false,
     },
     {
       title: "Inertial Thinking",
