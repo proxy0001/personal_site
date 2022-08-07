@@ -5,6 +5,16 @@ export const seriesCommunication = {
   description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
   pieces: [
     {
+      title: "Something There",
+      src: "/img/communication/Communication-Something_There_1080P.png",
+      alt: "Communication - Something There",
+      createDate: "2022-08-07",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: false,
+    },
+    {
       title: "Covering Up",
       src: "/img/communication/Communication-Covering_Up_1080P.png",
       alt: "Communication - Covering Up",
