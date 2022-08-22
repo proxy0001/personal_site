@@ -6,7 +6,7 @@ export const seriesDigitalNative = {
 
   This series was drawn with Proceate, 6000 x 9000 pixels, 300 DPI. Playing with random brushes and color blending modes, looking for a shot on the canvas is like splashing ink into a landscape, and then with the association of lines, shapes and artistic conceptions, the creatures and stories belonging to this overhead environment are evolved and born. In a way, it's closer to generative art or AI's way of painting.
   
-  To sum up, it's like doodling on a textbook 🤪`,
+  To sum up, it's like doodles on a classmate's textbook 🤪`,
   pieces: [
     {
       title: "Bioaccumulation of Lies",
