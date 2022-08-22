@@ -970,9 +970,9 @@ export const me = {
         seriesDigitalNative,
         seriesCommunication,
         seriesInTheRoom,
+        seriesPortfolioFrom2015To2017,
         seriesPixel6,
         seriesCanITakeAPictureForYou,
-        seriesPortfolioFrom2015To2017,
     ].map((x, i) => {
         return {
             title: x.title,
