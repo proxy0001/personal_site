@@ -1,13 +1,17 @@
-import {MdSwapHorizontalCircle, MdHome, MdBedroomChild, MdPhotoCamera, MdBrush, MdCamera} from 'react-icons/md';
+import {MdHdrStrong, MdSwapHorizontalCircle, MdHome, MdBedroomChild, MdPhotoCamera, MdBrush, MdCamera} from 'react-icons/md';
 
-export const seriesCommunication = {
-  title: "Communication",
-  description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
+export const seriesDigitalNative = {
+  title: "Digital Native",
+  description: `From the digital age, breakthroughs and creations based on a single context have gradually become too closed. The reason is that the accumulation and dissemination of information is becoming easier and easier. Today, access to information is not difficult for the new generation of digital natives, but horizontal connectivity is becoming especially important. Starting from our own experience, we constantly interact with people in different fields and even AIs, and then evolve a more organic and vibrant new ecology in the future.
+
+  This series was drawn with Proceate, 6000 x 9000 pixels, 300 DPI. Playing with random brushes and color blending modes, looking for a shot on the canvas is like splashing ink into a landscape, and then with the association of lines, shapes and artistic conceptions, the creatures and stories belonging to this overhead environment are evolved and born. In a way, it's closer to generative art or AI's way of painting.
+  
+  To sum up, it's like doodling on a textbook 🤪`,
   pieces: [
     {
-      title: "Imaginary8 (Temp)",
-      src: "/img/communication/Communication-Imaginary8_(Temp)_1080P.png",
-      alt: "Communication - Imaginary8 (Temp)",
+      title: "Bioaccumulation of Lies",
+      src: "/img/digital_native/Digital_Native-08_Bioaccumulation_of_Lies_1080P.png",
+      alt: "Communication - Bioaccumulation of Lies",
       createDate: "2022-08-21",
       specification: "6000 x 9000",
       width: 6000,
@@ -15,9 +19,9 @@ export const seriesCommunication = {
       isCover: false,
     },
     {
-      title: "Imaginary7 (Temp)",
-      src: "/img/communication/Communication-Imaginary7_(Temp)_1080P.png",
-      alt: "Communication - Imaginary7 (Temp)",
+      title: "Atonement Spider DLC",
+      src: "/img/digital_native/Digital_Native-07_Atonement_Spider_DLC_1080P.png",
+      alt: "Communication - Atonement Spider DLC",
       createDate: "2022-08-19",
       specification: "6000 x 9000",
       width: 6000,
@@ -25,29 +29,29 @@ export const seriesCommunication = {
       isCover: false,
     },
     {
-      title: "Imaginary6 (Temp)",
-      src: "/img/communication/Communication-Imaginary6_(Temp)_1080P.png",
-      alt: "Communication - Imaginary6 (Temp)",
+      title: "Noodle Made Gallery",
+      src: "/img/digital_native/Digital_Native-06_Noodle_Made_Gallery_1080P.png",
+      alt: "Communication - Noodle Made Gallery",
       createDate: "2022-08-16",
-      specification: "6000 x 9000",
-      width: 6000,
-      height: 9000,
-      isCover: false,
-    },
-    {
-      title: "Imaginary5 (Temp)",
-      src: "/img/communication/Communication-Imaginary5_(Temp)_1080P.png",
-      alt: "Communication - Imaginary5 (Temp)",
-      createDate: "2022-08-15",
       specification: "6000 x 9000",
       width: 6000,
       height: 9000,
       isCover: true,
     },
     {
-      title: "Imaginary4 (Temp)",
-      src: "/img/communication/Communication-Imaginary4_(Temp)_1080P.png",
-      alt: "Communication - Imaginary4 (Temp)",
+      title: "Ukiyo-e Yggdrasil",
+      src: "/img/digital_native/Digital_Native-05_Ukiyo-e_Yggdrasil_1080P.png",
+      alt: "Communication - Ukiyo-e Yggdrasil",
+      createDate: "2022-08-15",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: false,
+    },
+    {
+      title: "Packet Paradise",
+      src: "/img/digital_native/Digital_Native-04_Packet_Paradise_1080P.png",
+      alt: "Communication - Packet Paradise",
       createDate: "2022-08-14",
       specification: "6000 x 9000",
       width: 6000,
@@ -55,9 +59,9 @@ export const seriesCommunication = {
       isCover: false,
     },
     {
-      title: "Imaginary3 (Temp)",
-      src: "/img/communication/Communication-Imaginary3_(Temp)_1080P.png",
-      alt: "Communication - Imaginary3 (Temp)",
+      title: "Cloud Diving Championship",
+      src: "/img/digital_native/Digital_Native-03_Cloud_Diving_Championship_1080P.png",
+      alt: "Communication - Cloud Diving Championship",
       createDate: "2022-08-13",
       specification: "6000 x 9000",
       width: 6000,
@@ -65,9 +69,9 @@ export const seriesCommunication = {
       isCover: false,
     },
     {
-      title: "Imaginary2 (Temp)",
-      src: "/img/communication/Communication-Imaginary2_(Temp)_1080P.png",
-      alt: "Communication - Imaginary2 (Temp)",
+      title: "Vector Pyramid",
+      src: "/img/digital_native/Digital_Native-02_Vector_Pyramid_1080P.png",
+      alt: "Communication - Vector Pyramid",
       createDate: "2022-08-10",
       specification: "6000 x 9000",
       width: 6000,
@@ -75,15 +79,25 @@ export const seriesCommunication = {
       isCover: false,
     },
     {
-      title: "Imaginary",
-      src: "/img/communication/Communication-Imaginary_1080P.png",
-      alt: "Communication - Imaginary",
+      title: "Imaginary Bay",
+      src: "/img/digital_native/Digital_Native-01_Imaginary_Bay_1080P.png",
+      alt: "Communication - Imaginary Bay",
       createDate: "2022-08-09",
       specification: "6000 x 9000",
       width: 6000,
       height: 9000,
       isCover: false,
     },
+  ].sort(custom_sort),
+  representColor: "aliceblue",
+  link: "/series/digital-native",
+  icon: <MdHdrStrong/>,
+}
+
+export const seriesCommunication = {
+  title: "Communication",
+  description: "In any relationship, different viewpoints will bring conflict, and the same viewpoint creates consensus. I'm fascinated by the scenery that emerges when feeling the flow of different perspectives in communication.",
+  pieces: [
     {
       title: "No Idea",
       src: "/img/communication/Communication-No_Idea_1080P.png",
@@ -122,7 +136,7 @@ export const seriesCommunication = {
       specification: "6000 x 9000",
       width: 6000,
       height: 9000,
-      isCover: false,
+      isCover: true,
     },
     {
       title: "Brain-sailing",
@@ -264,7 +278,7 @@ export const seriesCommunication = {
       height: 5400,
       isCover: false,
     },
-  ],
+  ].sort(custom_sort),
   representColor: "violet",
   link: "/series/communication",
   icon: <MdSwapHorizontalCircle/>,
@@ -414,7 +428,7 @@ export const seriesInTheRoom = {
         height: 2160,
         isCover: false,
       },
-    ],
+    ].sort(custom_sort),
     representColor: "greenyellow",
     link: "/series/in-the-room",
     icon: <MdBedroomChild/>,
@@ -431,7 +445,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-26",
@@ -451,7 +465,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-18",
@@ -461,7 +475,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-16",
@@ -471,7 +485,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-13",
@@ -481,7 +495,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-10",
@@ -491,7 +505,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-09",
@@ -501,7 +515,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-06",
@@ -511,7 +525,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-05",
@@ -521,7 +535,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-03",
@@ -531,7 +545,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-01",
@@ -541,7 +555,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-06-30",
@@ -633,7 +647,7 @@ export const seriesCanITakeAPictureForYou = {
         height: 2268,
         isCover: false,
       },
-    ],
+    ].sort(custom_sort),
     representColor: "cornsilk",
     link: "/series/can-i-take-a-picture-for-you",
     icon: <MdPhotoCamera/>,
@@ -751,7 +765,7 @@ export const seriesPixel6 = {
       specification: "4032 x 2268, Taiwan",
       width: 4032,
       height: 2268,
-      isCover: false,
+      isCover: true,
     },
     {
       title: "Xinzhuang",
@@ -821,7 +835,7 @@ export const seriesPixel6 = {
       specification: "4032 x 2268, Taiwan",
       width: 4032,
       height: 2268,
-      isCover: true,
+      isCover: false,
     },
     {
       title: "Xinzhuang",
@@ -873,7 +887,7 @@ export const seriesPixel6 = {
       height: 2268,
       isCover: false,
     },
-  ],
+  ].sort(custom_sort),
   representColor: "mediumaquamarine",
   link: "/series/pixel-6",
   icon: <MdCamera/>,
@@ -943,25 +957,27 @@ export const seriesPortfolioFrom2015To2017 = {
         height: 1080,
         isCover: false,
       },
-    ],
+    ].sort(custom_sort),
     representColor: "lightpink",
     link: "/series/portfolio-from-2015-to-2017",
     icon: <MdBrush/>,
 }
+const allSeries = [
+  seriesDigitalNative,
+  seriesCommunication,
+  seriesInTheRoom,
+  seriesPortfolioFrom2015To2017,
+  seriesPixel6,
+  seriesCanITakeAPictureForYou,
+]
 
 export const me = {
     title: "proxy0001",
     description: "Why did I decide to be an artist? In fact, I majored in animation in college and later worked in the post-production department of a video studio for nearly a year. But during that time, I felt limited and had a strong urge to explore what I was capable of in some of the fields that I had been interested in. So I started a new journey and became a software planner and front-end engineer for seven years. After years of exploring, which enriches my understanding of common principles in many other fields, I am picking back up my drawing pen, feeling ready to do art and create a brand new self along the way.",
-    gallery: [
-        seriesCommunication,
-        seriesInTheRoom,
-        seriesPixel6,
-        seriesCanITakeAPictureForYou,
-        seriesPortfolioFrom2015To2017,
-    ].map((x, i) => {
+    gallery: allSeries.map((x, i) => {
         return {
             title: x.title,
-            description: x.description,
+            description: trunc(x.description, 300),
             cover: x.pieces.filter(x => x.isCover === true)[0],
             representColor: x.representColor,
             link: x.link,
@@ -973,44 +989,31 @@ export const me = {
 }
 
 export const menuOptions = [
-    {   
-        text: "Home",
-        link: "/",
-        icon: me.icon,
-        isSystemColor: true,
-    },
-    {
-        text: seriesCommunication.title,
-        link: seriesCommunication.link,
-        representColor: seriesCommunication.representColor,
-        icon: seriesCommunication.icon,
-    },
-    {
-        text: seriesInTheRoom.title,
-        link: seriesInTheRoom.link,
-        representColor: seriesInTheRoom.representColor,
-        icon: seriesInTheRoom.icon,
-    },
-    {  
-        text: seriesPixel6.title,
-        link: seriesPixel6.link,
-        representColor: seriesPixel6.representColor,
-        icon: seriesPixel6.icon,
-    },
-    {  
-        text: seriesCanITakeAPictureForYou.title,
-        link: seriesCanITakeAPictureForYou.link,
-        representColor: seriesCanITakeAPictureForYou.representColor,
-        icon: seriesCanITakeAPictureForYou.icon,
-    },
-    {  
-        text: seriesPortfolioFrom2015To2017.title,
-        link: seriesPortfolioFrom2015To2017.link,
-        representColor: seriesPortfolioFrom2015To2017.representColor,
-        icon: seriesPortfolioFrom2015To2017.icon,
-    },
-]
+  {   
+      text: "Home",
+      link: "/",
+      icon: me.icon,
+      isSystemColor: true,
+  },
+].concat(allSeries.map(x => {
+  return {
+    text: x.title,
+    link: x.link,
+    representColor: x.representColor,
+    icon: x.icon,
+  }
+}))
 
 export const env = {
   url: "https://proxy0001.vercel.app"
+}
+
+function trunc (str, n) {
+  return str.substr(0,n-1)+(str.length>n?' \u2026':'');
+}
+
+function custom_sort (a, b) {
+  const a_date = new Date(a.createDate);
+  const b_date = new Date(b.createDate);
+  return a.isCover > b.isCover ? -1 : a_date > b_date ? -1 : 1
 }

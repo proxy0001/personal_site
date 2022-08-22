@@ -11,17 +11,26 @@
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 3rem;
+}
+
+.footer .content {
+  width: 100%;
   display: flex;
   flex: 1;
-  padding: 1rem 0 0 0;
-  margin: 0 -1rem;
+  padding: 0.5rem 0 0.5rem 0;
   border-top: 1px solid cornflowerblue;
   color: cornflowerblue;
   justify-content: right;
-  align-items: center;
+  align-items: flex-end;
+  background-color: rgb(0 0 0 / 90%);
 }
 
-.footer .links a {
+.footer a {
   padding: 0 0.4rem;
 }
 
@@ -104,6 +113,7 @@
   line-height: 1.5;
   font-size: 1.15rem;
   color: lightslategray;
+  white-space: pre-line;
 }
 
 .main .description {
@@ -136,6 +146,7 @@
   line-height: 1.5;
   color: lightslategray;
   padding-right: 3.2rem;
+  white-space: pre-line;
 }
 
 .gallery .coverImg {
@@ -214,6 +225,7 @@
   left: 0;
   line-height: 1.5;
   font-size: 1rem;
+  white-space: pre-line;
 }
 
 .series .seriesDescription.deactivate {
@@ -303,7 +315,7 @@
     padding: 2rem 6rem;
   }
   .footer {
-    margin: 0 -1rem;
+    padding: 0 6rem;
   }
   .menu {
     width: 3.2rem;
@@ -346,7 +358,7 @@
     padding: 2rem 2rem;
   }
   .footer {
-    margin: 0 -1rem;
+    padding: 0 2rem;
   }
   .menu {
     width: 3rem;
@@ -391,7 +403,7 @@
     padding: 2rem 0.5rem;
   }
   .footer {
-    margin: 0 -0.25rem;
+    padding: 0 0.5rem;
   }
   .menu {
     width: 2.8rem;
