@@ -2,10 +2,10 @@ import {MdHdrStrong, MdSwapHorizontalCircle, MdHome, MdBedroomChild, MdPhotoCame
 
 export const seriesDigitalNative = {
   title: "Digital Native",
-  description: `Since the beginning of the digital age, the creative way of following the context of the past has gradually become too closed-door. The reason is that the accumulation and dissemination of information has become easier and easier. Today, for the new generation of digital natives, it is not difficult to obtain information. It is more and more important to connect with the horizontal. In the new era, art and painting will be more flattened, starting from their own experience, constantly interacting with others and even AI, and evolving to create a new ecology.
+  description: `From the digital age, breakthroughs and creations based on a single context have gradually become too closed. The reason is that the accumulation and dissemination of information is becoming easier and easier. Today, access to information is not difficult for the new generation of digital natives, but horizontal connectivity is becoming especially important. Starting from our own experience, we constantly interact with people in different fields and even AIs, and then evolve a more organic and vibrant new ecology in the future.
 
-  Draw with Proceate, 6000 x 9000 pixels, 300 DPI. Playing with random brushes and color blending modes to find a shot on the canvas like splashing ink into a landscape, and then with the association of lines, shapes and artistic conceptions, the creatures and ecosystems that belong to this world are evolved. In a way, it's closer to generative art or AI's way of painting.
-
+  This series was drawn with Proceate, 6000 x 9000 pixels, 300 DPI. Playing with random brushes and color blending modes, looking for a shot on the canvas is like splashing ink into a landscape, and then with the association of lines, shapes and artistic conceptions, the creatures and stories belonging to this overhead environment are evolved and born. In a way, it's closer to generative art or AI's way of painting.
+  
   To sum up, it's like doodling on a textbook 🤪`,
   pieces: [
     {
