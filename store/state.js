@@ -88,7 +88,7 @@ export const seriesDigitalNative = {
       height: 9000,
       isCover: false,
     },
-  ],
+  ].sort(custom_sort),
   representColor: "aliceblue",
   link: "/series/digital-native",
   icon: <MdHdrStrong/>,
@@ -278,7 +278,7 @@ export const seriesCommunication = {
       height: 5400,
       isCover: false,
     },
-  ],
+  ].sort(custom_sort),
   representColor: "violet",
   link: "/series/communication",
   icon: <MdSwapHorizontalCircle/>,
@@ -428,7 +428,7 @@ export const seriesInTheRoom = {
         height: 2160,
         isCover: false,
       },
-    ],
+    ].sort(custom_sort),
     representColor: "greenyellow",
     link: "/series/in-the-room",
     icon: <MdBedroomChild/>,
@@ -647,7 +647,7 @@ export const seriesCanITakeAPictureForYou = {
         height: 2268,
         isCover: false,
       },
-    ],
+    ].sort(custom_sort),
     representColor: "cornsilk",
     link: "/series/can-i-take-a-picture-for-you",
     icon: <MdPhotoCamera/>,
@@ -887,7 +887,7 @@ export const seriesPixel6 = {
       height: 2268,
       isCover: false,
     },
-  ],
+  ].sort(custom_sort),
   representColor: "mediumaquamarine",
   link: "/series/pixel-6",
   icon: <MdCamera/>,
@@ -957,7 +957,7 @@ export const seriesPortfolioFrom2015To2017 = {
         height: 1080,
         isCover: false,
       },
-    ],
+    ].sort(custom_sort),
     representColor: "lightpink",
     link: "/series/portfolio-from-2015-to-2017",
     icon: <MdBrush/>,
@@ -1038,4 +1038,10 @@ export const env = {
 
 function trunc (str, n) {
   return str.substr(0,n-1)+(str.length>n?' \u2026':'');
+}
+
+function custom_sort (a, b) {
+  const a_date = new Date(a.createDate);
+  const b_date = new Date(b.createDate);
+  return a.isCover > b.isCover ? -1 : a_date > b_date ? -1 : 1
 }
