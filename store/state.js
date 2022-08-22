@@ -1013,6 +1013,12 @@ export const menuOptions = [
         icon: seriesInTheRoom.icon,
     },
     {  
+      text: seriesPortfolioFrom2015To2017.title,
+      link: seriesPortfolioFrom2015To2017.link,
+      representColor: seriesPortfolioFrom2015To2017.representColor,
+      icon: seriesPortfolioFrom2015To2017.icon,
+    },
+    {  
         text: seriesPixel6.title,
         link: seriesPixel6.link,
         representColor: seriesPixel6.representColor,
@@ -1023,12 +1029,6 @@ export const menuOptions = [
         link: seriesCanITakeAPictureForYou.link,
         representColor: seriesCanITakeAPictureForYou.representColor,
         icon: seriesCanITakeAPictureForYou.icon,
-    },
-    {  
-        text: seriesPortfolioFrom2015To2017.title,
-        link: seriesPortfolioFrom2015To2017.link,
-        representColor: seriesPortfolioFrom2015To2017.representColor,
-        icon: seriesPortfolioFrom2015To2017.icon,
     },
 ]
 
