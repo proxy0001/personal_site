@@ -104,6 +104,7 @@
   line-height: 1.5;
   font-size: 1.15rem;
   color: lightslategray;
+  white-space: pre-line;
 }
 
 .main .description {
@@ -136,6 +137,7 @@
   line-height: 1.5;
   color: lightslategray;
   padding-right: 3.2rem;
+  white-space: pre-line;
 }
 
 .gallery .coverImg {
@@ -214,6 +216,7 @@
   left: 0;
   line-height: 1.5;
   font-size: 1rem;
+  white-space: pre-line;
 }
 
 .series .seriesDescription.deactivate {
