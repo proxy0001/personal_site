@@ -1015,5 +1015,8 @@ function trunc (str, n) {
 function custom_sort (a, b) {
   const a_date = new Date(a.createDate);
   const b_date = new Date(b.createDate);
-  return a.isCover > b.isCover ? -1 : a_date > b_date ? -1 : 1
+  let res = a_date > b_date ? -1 : 1
+  if (a.isCover > b.isCover) res = -1
+  if (b.isCover > a.isCover) res = 1
+  return res
 }
