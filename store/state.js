@@ -962,18 +962,19 @@ export const seriesPortfolioFrom2015To2017 = {
     link: "/series/portfolio-from-2015-to-2017",
     icon: <MdBrush/>,
 }
+const allSeries = [
+  seriesDigitalNative,
+  seriesCommunication,
+  seriesInTheRoom,
+  seriesPortfolioFrom2015To2017,
+  seriesPixel6,
+  seriesCanITakeAPictureForYou,
+]
 
 export const me = {
     title: "proxy0001",
     description: "Why did I decide to be an artist? In fact, I majored in animation in college and later worked in the post-production department of a video studio for nearly a year. But during that time, I felt limited and had a strong urge to explore what I was capable of in some of the fields that I had been interested in. So I started a new journey and became a software planner and front-end engineer for seven years. After years of exploring, which enriches my understanding of common principles in many other fields, I am picking back up my drawing pen, feeling ready to do art and create a brand new self along the way.",
-    gallery: [
-        seriesDigitalNative,
-        seriesCommunication,
-        seriesInTheRoom,
-        seriesPortfolioFrom2015To2017,
-        seriesPixel6,
-        seriesCanITakeAPictureForYou,
-    ].map((x, i) => {
+    gallery: allSeries.map((x, i) => {
         return {
             title: x.title,
             description: trunc(x.description, 300),
@@ -988,49 +989,20 @@ export const me = {
 }
 
 export const menuOptions = [
-    {   
-        text: "Home",
-        link: "/",
-        icon: me.icon,
-        isSystemColor: true,
-    },
-    {
-      text: seriesDigitalNative.title,
-      link: seriesDigitalNative.link,
-      representColor: seriesDigitalNative.representColor,
-      icon: seriesDigitalNative.icon,
-    },
-    {
-        text: seriesCommunication.title,
-        link: seriesCommunication.link,
-        representColor: seriesCommunication.representColor,
-        icon: seriesCommunication.icon,
-    },
-    {
-        text: seriesInTheRoom.title,
-        link: seriesInTheRoom.link,
-        representColor: seriesInTheRoom.representColor,
-        icon: seriesInTheRoom.icon,
-    },
-    {  
-      text: seriesPortfolioFrom2015To2017.title,
-      link: seriesPortfolioFrom2015To2017.link,
-      representColor: seriesPortfolioFrom2015To2017.representColor,
-      icon: seriesPortfolioFrom2015To2017.icon,
-    },
-    {  
-        text: seriesPixel6.title,
-        link: seriesPixel6.link,
-        representColor: seriesPixel6.representColor,
-        icon: seriesPixel6.icon,
-    },
-    {  
-        text: seriesCanITakeAPictureForYou.title,
-        link: seriesCanITakeAPictureForYou.link,
-        representColor: seriesCanITakeAPictureForYou.representColor,
-        icon: seriesCanITakeAPictureForYou.icon,
-    },
-]
+  {   
+      text: "Home",
+      link: "/",
+      icon: me.icon,
+      isSystemColor: true,
+  },
+].concat(allSeries.map(x => {
+  return {
+    text: x.title,
+    link: x.link,
+    representColor: x.representColor,
+    icon: x.icon,
+  }
+}))
 
 export const env = {
   url: "https://proxy0001.vercel.app"
