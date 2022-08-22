@@ -445,7 +445,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-26",
@@ -465,7 +465,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-18",
@@ -475,7 +475,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-16",
@@ -485,7 +485,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-13",
@@ -495,7 +495,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-10",
@@ -505,7 +505,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-09",
@@ -515,7 +515,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-06",
@@ -525,7 +525,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-05",
@@ -535,7 +535,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-03",
@@ -545,7 +545,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-07-01",
@@ -555,7 +555,7 @@ export const seriesCanITakeAPictureForYou = {
         specification: "4032 x 2268, Pixel 6",
         width: 4032,
         height: 2268,
-        isCover: true,
+        isCover: false,
       },
       {
         title: "2022-06-30",
@@ -765,7 +765,7 @@ export const seriesPixel6 = {
       specification: "4032 x 2268, Taiwan",
       width: 4032,
       height: 2268,
-      isCover: false,
+      isCover: true,
     },
     {
       title: "Xinzhuang",
@@ -835,7 +835,7 @@ export const seriesPixel6 = {
       specification: "4032 x 2268, Taiwan",
       width: 4032,
       height: 2268,
-      isCover: true,
+      isCover: false,
     },
     {
       title: "Xinzhuang",
