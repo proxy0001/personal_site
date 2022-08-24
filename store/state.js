@@ -10,7 +10,7 @@ export const seriesDigitalNative = {
   pieces: [
     {
       title: "Toy Glacier Ruins",
-      src: "/img/digital_native/Digital_Native-09_Toy_Glacier_Ruins_1080P.png",
+      src: "/img/digital_native/Digital_Native-09_Toy_Glacier_Ruins_2160.jpg",
       alt: "Digital Native - Toy Glacier Ruins",
       createDate: "2022-08-21",
       specification: "6000 x 9000",
@@ -20,7 +20,7 @@ export const seriesDigitalNative = {
     },
     {
       title: "Bioaccumulation of Lies",
-      src: "/img/digital_native/Digital_Native-08_Bioaccumulation_of_Lies_1080P.png",
+      src: "/img/digital_native/Digital_Native-08_Bioaccumulation_of_Lies_2160.jpg",
       alt: "Digital Native - Bioaccumulation of Lies",
       createDate: "2022-08-21",
       specification: "6000 x 9000",
@@ -30,7 +30,7 @@ export const seriesDigitalNative = {
     },
     {
       title: "Atonement Spider DLC",
-      src: "/img/digital_native/Digital_Native-07_Atonement_Spider_DLC_1080P.png",
+      src: "/img/digital_native/Digital_Native-07_Atonement_Spider_DLC_2160.jpg",
       alt: "Digital Native - Atonement Spider DLC",
       createDate: "2022-08-19",
       specification: "6000 x 9000",
@@ -40,7 +40,7 @@ export const seriesDigitalNative = {
     },
     {
       title: "Noodle Made Gallery",
-      src: "/img/digital_native/Digital_Native-06_Noodle_Made_Gallery_1080P.png",
+      src: "/img/digital_native/Digital_Native-06_Noodle_Made_Gallery_2160.jpg",
       alt: "Digital Native - Noodle Made Gallery",
       createDate: "2022-08-16",
       specification: "6000 x 9000",
@@ -50,7 +50,7 @@ export const seriesDigitalNative = {
     },
     {
       title: "Ukiyo-e Yggdrasil",
-      src: "/img/digital_native/Digital_Native-05_Ukiyo-e_Yggdrasil_1080P.png",
+      src: "/img/digital_native/Digital_Native-05_Ukiyo-e_Yggdrasil_2160.jpg",
       alt: "Digital Native - Ukiyo-e Yggdrasil",
       createDate: "2022-08-15",
       specification: "6000 x 9000",
@@ -60,7 +60,7 @@ export const seriesDigitalNative = {
     },
     {
       title: "Packet Paradise",
-      src: "/img/digital_native/Digital_Native-04_Packet_Paradise_1080P.png",
+      src: "/img/digital_native/Digital_Native-04_Packet_Paradise_2160.jpg",
       alt: "Digital Native - Packet Paradise",
       createDate: "2022-08-14",
       specification: "6000 x 9000",
@@ -70,7 +70,7 @@ export const seriesDigitalNative = {
     },
     {
       title: "Cloud Diving Championship",
-      src: "/img/digital_native/Digital_Native-03_Cloud_Diving_Championship_1080P.png",
+      src: "/img/digital_native/Digital_Native-03_Cloud_Diving_Championship_2160.jpg",
       alt: "Digital Native - Cloud Diving Championship",
       createDate: "2022-08-13",
       specification: "6000 x 9000",
@@ -80,7 +80,7 @@ export const seriesDigitalNative = {
     },
     {
       title: "Vector Pyramid",
-      src: "/img/digital_native/Digital_Native-02_Vector_Pyramid_1080P.png",
+      src: "/img/digital_native/Digital_Native-02_Vector_Pyramid_2160.jpg",
       alt: "Digital Native - Vector Pyramid",
       createDate: "2022-08-10",
       specification: "6000 x 9000",
@@ -90,7 +90,7 @@ export const seriesDigitalNative = {
     },
     {
       title: "Imaginary Bay",
-      src: "/img/digital_native/Digital_Native-01_Imaginary_Bay_1080P.png",
+      src: "/img/digital_native/Digital_Native-01_Imaginary_Bay_2160.jpg",
       alt: "Digital Native - Imaginary Bay",
       createDate: "2022-08-09",
       specification: "6000 x 9000",
