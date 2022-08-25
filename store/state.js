@@ -9,10 +9,20 @@ export const seriesDigitalNative = {
   To sum up, it's like doodles on a classmate's textbook 🤪`,
   pieces: [
     {
+      title: "Black Beast Desert",
+      src: "/img/digital_native/Digital_Native-10_Black_Beast_Desert_2160.jpg",
+      alt: "Digital Native - Black Beast Desert",
+      createDate: "2022-08-25",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: false,
+    },
+    {
       title: "Toy Glacier Ruins",
       src: "/img/digital_native/Digital_Native-09_Toy_Glacier_Ruins_2160.jpg",
       alt: "Digital Native - Toy Glacier Ruins",
-      createDate: "2022-08-21",
+      createDate: "2022-08-23",
       specification: "6000 x 9000",
       width: 6000,
       height: 9000,
