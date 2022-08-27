@@ -9,6 +9,16 @@ export const seriesDigitalNative = {
   To sum up, it's like doodles on a classmate's textbook 🤪`,
   pieces: [
     {
+      title: "Blood Orchid Gate",
+      src: "/img/digital_native/Digital_Native-11_Blood_Orchid_Gate_2160.jpg",
+      alt: "Digital Native - Blood Orchid Gate",
+      createDate: "2022-08-27",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: false,
+    },
+    {
       title: "Black Beast Desert",
       src: "/img/digital_native/Digital_Native-10_Black_Beast_Desert_2160.jpg",
       alt: "Digital Native - Black Beast Desert",
