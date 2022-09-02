@@ -2,12 +2,22 @@ import {MdHdrStrong, MdSwapHorizontalCircle, MdHome, MdBedroomChild, MdPhotoCame
 
 export const seriesDigitalNative = {
   title: "Digital Native",
-  description: `From the digital age, breakthroughs and creations based on a single context have gradually become too closed, because the accumulation and dissemination of information has become easier and easier. For the digital natives, access to information is not difficult, but horizontal connections and cross-domains have become extremely important. Emphasizes that starting from one's own experience, constantly interacting with people in different fields and even AI, to stimulate creativity, and then evolve a more organic and diverse new ecology in the future.
+  description: `From the digital age, breakthroughs and creations based on a single context have gradually become too isolated because the accumulation and dissemination of information has become easier and easier. For the digital natives, access to information is not difficult, but horizontal connections and cross-domains have become extremely important. Emphasizes that starting from one's own experience, constantly interacting with people in different fields and even AI, to stimulate creativity, and then evolve a more organic and diverse new ecology in the future.
 
   This series was drawn with Proceate, 6000 x 9000 pixels, 300 DPI. Playing with random brushes and color blending modes, looking for a shot on the canvas is like splashing ink into a landscape, and then with the association of lines, shapes and artistic conceptions, the creatures and stories belonging to this overhead environment are evolved and born. In a way, it's closer to generative art or AI's way of painting.
   
   To sum up, it's like doodles on a classmate's textbook 🤪`,
   pieces: [
+    {
+      title: "Righteous Sea",
+      src: "/img/digital_native/Digital_Native-12_Righteous_Sea_2160.jpg",
+      alt: "Digital Native - Righteous Sea",
+      createDate: "2022-09-02",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: false,
+    },
     {
       title: "Blood Orchid Gate",
       src: "/img/digital_native/Digital_Native-11_Blood_Orchid_Gate_2160.jpg",
