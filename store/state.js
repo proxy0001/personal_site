@@ -9,9 +9,9 @@ export const seriesDigitalNative = {
   To sum up, it's like doodles on a classmate's textbook 🤪`,
   pieces: [
     {
-      title: "Righteous Sea",
-      src: "/img/digital_native/Digital_Native-12_Righteous_Sea_2160.jpg",
-      alt: "Digital Native - Righteous Sea",
+      title: "Between Waves",
+      src: "/img/digital_native/Digital_Native-12_Between_Waves_2160.jpg",
+      alt: "Digital Native - Between Waves",
       createDate: "2022-09-02",
       specification: "6000 x 9000",
       width: 6000,
