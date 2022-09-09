@@ -9,6 +9,16 @@ export const seriesDigitalNative = {
   To sum up, it's like doodles on a classmate's textbook 🤪`,
   pieces: [
     {
+      title: "Electromagnetic Underwater Park",
+      src: "/img/digital_native/Digital_Native-13_Electromagnetic_Underwater_Park_2160.jpg",
+      alt: "Digital Native - Electromagnetic Underwater Park",
+      createDate: "2022-09-09",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: false,
+    },
+    {
       title: "Between Waves",
       src: "/img/digital_native/Digital_Native-12_Between_Waves_2160.jpg",
       alt: "Digital Native - Between Waves",
