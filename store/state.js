@@ -9,6 +9,16 @@ export const seriesDigitalNative = {
   This series was drawn with Proceate, 6000 x 9000 pixels, 300 DPI. Playing with random brushes and color blending modes, looking for a shot on the canvas is like splashing ink into a landscape, and then with the association of lines, shapes and artistic conceptions, the creatures and stories belonging to this overhead environment are evolved and born. To some extent, it's closer to generative art or AI's way of painting, just graffiti more consciously 🤪`,
   pieces: [
     {
+      title: "Graffiti Graveyard",
+      src: "/img/digital_native/Digital_Native-14_Graffiti_Graveyard_2160.jpg",
+      alt: "Digital Native - Graffiti Graveyard",
+      createDate: "2022-09-18",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: false,
+    },
+    {
       title: "Electromagnetic Underwater Park",
       src: "/img/digital_native/Digital_Native-13_Electromagnetic_Underwater_Park_2160.jpg",
       alt: "Digital Native - Electromagnetic Underwater Park",
