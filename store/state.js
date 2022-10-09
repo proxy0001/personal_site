@@ -9,6 +9,16 @@ export const seriesDigitalNative = {
   This series was drawn with Proceate, 6000 x 9000 pixels, 300 DPI. Playing with random brushes and color blending modes, looking for a shot on the canvas is like splashing ink into a landscape, and then with the association of lines, shapes and artistic conceptions, the creatures and stories belonging to this overhead environment are evolved and born. To some extent, it's closer to generative art or AI's way of painting, just graffiti more consciously 🤪`,
   pieces: [
     {
+      title: "Just a Fish",
+      src: "/img/digital_native/Digital_Native-16_Just_a_Fish_2160.jpg",
+      alt: "Digital Native - Just a Fish",
+      createDate: "2022-10-09",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: false,
+    },
+    {
       title: "In The Mud",
       src: "/img/digital_native/Digital_Native-15_In_The_Mud_2160.jpg",
       alt: "Digital Native - In The Mud",
