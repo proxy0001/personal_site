@@ -1,4 +1,24 @@
-import {MdHdrStrong, MdSwapHorizontalCircle, MdHome, MdBedroomChild, MdPhotoCamera, MdBrush, MdCamera} from 'react-icons/md';
+import {MdPeople, MdHdrStrong, MdSwapHorizontalCircle, MdHome, MdBedroomChild, MdPhotoCamera, MdBrush, MdCamera} from 'react-icons/md';
+
+export const seriesFigures = {
+  title: "Figures",
+  description: `🤡`,
+  pieces: [
+    {
+      title: "Waiting for The Time",
+      src: "/img/figures/Figures-01_Waiting_for_The_Time_2160.jpg",
+      alt: "Figures - Waiting for The Time",
+      createDate: "2022-10-15",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: true,
+    },
+  ].sort(custom_sort),
+  representColor: "greenyellow",
+  link: "/series/figures",
+  icon: <MdPeople/>,
+}
 
 export const seriesDigitalNative = {
   title: "Digital Native",
@@ -1043,6 +1063,7 @@ export const seriesPortfolioFrom2015To2017 = {
     icon: <MdBrush/>,
 }
 const allSeries = [
+  seriesFigures,
   seriesDigitalNative,
   seriesCommunication,
   seriesInTheRoom,
