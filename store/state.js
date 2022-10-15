@@ -15,7 +15,7 @@ export const seriesFigures = {
       isCover: true,
     },
   ].sort(custom_sort),
-  representColor: "greenyellow",
+  representColor: "lightsalmon",
   link: "/series/figures",
   icon: <MdPeople/>,
 }
