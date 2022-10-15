@@ -1,10 +1,28 @@
-import {MdHdrStrong, MdSwapHorizontalCircle, MdHome, MdBedroomChild, MdPhotoCamera, MdBrush, MdCamera} from 'react-icons/md';
+import {MdPeople, MdHdrStrong, MdSwapHorizontalCircle, MdHome, MdBedroomChild, MdPhotoCamera, MdBrush, MdCamera} from 'react-icons/md';
+
+export const seriesFigures = {
+  title: "Figures",
+  description: `🤡`,
+  pieces: [
+    {
+      title: "Waiting for The Time",
+      src: "/img/figures/Figures-01_Waiting_for_The_Time_2160.jpg",
+      alt: "Figures - Waiting for The Time",
+      createDate: "2022-10-15",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: true,
+    },
+  ].sort(custom_sort),
+  representColor: "greenyellow",
+  link: "/series/figures",
+  icon: <MdPeople/>,
+}
 
 export const seriesDigitalNative = {
   title: "Digital Native",
-  description: `Digital Native
-
-  From the digital age, breakthroughs and creations based on a single context have gradually become too isolated because the accumulation and dissemination of information has become easier and easier. For the digital natives, access to information is not difficult, instead horizontal connections and cross-domains have become extremely important. Emphasizes that starting from one's own experience, constantly interacting with people in different fields and even AI, to stimulate creativity, and then evolve a more organic and diverse new ecology in the future.
+  description: `From the digital age, breakthroughs and creations based on a single context have gradually become too isolated because the accumulation and dissemination of information has become easier and easier. For the digital natives, access to information is not difficult, instead horizontal connections and cross-domains have become extremely important. Emphasizes that starting from one's own experience, constantly interacting with people in different fields and even AI, to stimulate creativity, and then evolve a more organic and diverse new ecology in the future.
   
   This series was drawn with Proceate, 6000 x 9000 pixels, 300 DPI. Playing with random brushes and color blending modes, looking for a shot on the canvas is like splashing ink into a landscape, and then with the association of lines, shapes and artistic conceptions, the creatures and stories belonging to this overhead environment are evolved and born. To some extent, it's closer to generative art or AI's way of painting, just graffiti more consciously 🤪`,
   pieces: [
@@ -1043,6 +1061,7 @@ export const seriesPortfolioFrom2015To2017 = {
     icon: <MdBrush/>,
 }
 const allSeries = [
+  seriesFigures,
   seriesDigitalNative,
   seriesCommunication,
   seriesInTheRoom,
