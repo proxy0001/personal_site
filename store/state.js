@@ -5,6 +5,16 @@ export const seriesFigures = {
   description: `🤡`,
   pieces: [
     {
+      title: "Against The World",
+      src: "/img/figures/Figures-02_Against_The_World_2160.jpg",
+      alt: "Figures - Against The World",
+      createDate: "2022-11-13",
+      specification: "6000 x 9000",
+      width: 6000,
+      height: 9000,
+      isCover: true,
+    },
+    {
       title: "Waiting for The Time",
       src: "/img/figures/Figures-01_Waiting_for_The_Time_2160.jpg",
       alt: "Figures - Waiting for The Time",
@@ -12,7 +22,7 @@ export const seriesFigures = {
       specification: "6000 x 9000",
       width: 6000,
       height: 9000,
-      isCover: true,
+      isCover: false,
     },
   ].sort(custom_sort),
   representColor: "lightsalmon",
